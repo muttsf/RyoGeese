@@ -1,0 +1,4 @@
+Owned RyoGeese reader source: GPL-3.0-only.
+Copyright (C) 2026 手电加鞭.
+See ../LICENSE, ../LICENSING.md and ADDITIONAL_PERMISSION.txt.
+The accepted C#/CUDA source is unchanged; no SimulationCraft exception is granted.

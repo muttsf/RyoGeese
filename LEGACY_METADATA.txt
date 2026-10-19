@@ -1,0 +1,15 @@
+历史元数据与当前运行职责
+
+foundation/profile_session.py不能整文件删除：
+desktop_app.py第13行导入AppliedProfile，第289行构造该对象。
+同文件ProfileSession类是旧离线流程；桌面当前保存使用memory_store.py，
+不实例化旧ProfileSession，也不通过旧ProfileStore向安装目录user_data写入。
+ProfileStore仍供历史离线方法使用，不能把它当成桌面保存入口。
+
+current_talents.json：HISTORICAL，旧12.1.0导出记录；未发现Python正文读取该文件，
+但两级来源锁列出了它。暂保留与冻结锁一致，不能只删JSON而留下坏锁。
+current_profile.json：HISTORICAL，旧离线默认资料；桌面从用户本次导入建立配置。
+supported_source.json：CURRENT，导入器使用其中的树哈希/节点数进行核对。
+其decoderLimit中的“current user export”是旧文字，不表示按角色姓名绑定。
+后续新运行候选仅改准确说明，并同时更新来源锁；本源码草稿保持已测字节不变。
+frozen_config/talent_model中的70391表示内置资料基线，不是只接受这个完整构建号。

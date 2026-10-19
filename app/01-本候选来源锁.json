@@ -1,0 +1,1033 @@
+{
+  "copies": [
+    {
+      "copy": {
+        "path": "app_brand.py",
+        "bytes": 864,
+        "sha256": "f8c59fe9358c9aa1694df3260662b98f8508279a7b77442dca06da681d5f139a"
+      }
+    },
+    {
+      "copy": {
+        "path": "app_support.py",
+        "bytes": 815,
+        "sha256": "5f04bcb6e000692efcbc7e795d26caf8e5c2cd979c84ac3dc8ad58e70d268a88"
+      }
+    },
+    {
+      "copy": {
+        "path": "assets/RyoGeese.ico",
+        "bytes": 64343,
+        "sha256": "c51dcddee7e2c6f09d9346c126fc9f82d60df9f61625338f7065ba9bb2523195"
+      }
+    },
+    {
+      "copy": {
+        "path": "assets/RyoGeese.png",
+        "bytes": 43385,
+        "sha256": "6c6de1b5c1e74b8be8e269c2fd8dd56e45461439fd532dc42f94d4424658a7a3"
+      }
+    },
+    {
+      "copy": {
+        "path": "bootstrap.py",
+        "bytes": 634,
+        "sha256": "f7b8bb12b05a857459024c9af81c774fc6df0316244aad7977935da363829d72"
+      }
+    },
+    {
+      "copy": {
+        "path": "desktop_app.py",
+        "bytes": 18395,
+        "sha256": "65fe3fd8874dbe63f40aa60353583a3edd26af131c30343502b311f156038580"
+      }
+    },
+    {
+      "copy": {
+        "path": "diagnostics.py",
+        "bytes": 4557,
+        "sha256": "790fed819be56efeba98cf929a7d44521c7ff7f751994c18410dcf733568f9f1"
+      }
+    },
+    {
+      "copy": {
+        "path": "display_driver.py",
+        "bytes": 2151,
+        "sha256": "36704c26433a51ff06bec751428c2ad9b434d88e133e86485008f2d65bfeab14"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/01-来源保护与隔离副本.json",
+        "bytes": 3661,
+        "sha256": "ac772cec2392958b172af2d5ef900ebe767770e5670545267636daa35f612602"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/profile_session.py",
+        "bytes": 3237,
+        "sha256": "870dd7fbaff4741a41adab8c61e150f5dcd987df9e4e7ff5543612f6c5319682"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/runtime_access.py",
+        "bytes": 1486,
+        "sha256": "202dc1bfbc723ec22727f5fdae6ec019f8048f0017d4f9b96a996c6bdfa0c652"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/base_offline_adapter.py",
+        "bytes": 13224,
+        "sha256": "ef03db1b06819d5eb7ef1553b8e940494cf43071917ff01a0d1fc71ba07d9436"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/configured_adapter.py",
+        "bytes": 7057,
+        "sha256": "1239da2e4d40dba063bfc3bad382782368a0580220239576aeb8d119a31c4ef1"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/controlled_core.py",
+        "bytes": 888,
+        "sha256": "70960e73f63036f33de411c9ccb636cfd46ea8d262191a3f4a705d0d500e91a8"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/current_profile.json",
+        "bytes": 499,
+        "sha256": "ddc798ca27cc0d00204d5d33919eac789d049f37f000bbc63266974d84f1db31"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/current_talents.json",
+        "bytes": 523,
+        "sha256": "c0737fb43d8c65e614a6b1574425aeee6d4a253adc4932f7c374cb4e974b56f0"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/display_fields.py",
+        "bytes": 3838,
+        "sha256": "ab26f5ea9816d081b525451afd8b7c65452ee4d68b74a8a251ad04d24c481120"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/frozen_config.json",
+        "bytes": 7565,
+        "sha256": "0ab692d06157c14efaa82e517ffbb0ee52711a69bcf19409bb6b1dbfce9572da"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/frozen_v1.py",
+        "bytes": 1312,
+        "sha256": "bbfccffb4ba5a3745f2485f28882f177780f03978ead22bc04fef9a76e64540d"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/item_set_index.json",
+        "bytes": 4771407,
+        "sha256": "fb09b9667e9029df841d27d02bacb3da488a9350ebd594f08ed3745741f99cae"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/profile_model.py",
+        "bytes": 3727,
+        "sha256": "3dc6d9512458b0616f4df5043ce3a351391a57b6d74e411649ef20180ffccceb"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/prompt_view.py",
+        "bytes": 2218,
+        "sha256": "bfc9a95fdc361048cf1175d04ae5cc4dfa35d27e7a2bae59f25fdbd0ec756602"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/simc_import.py",
+        "bytes": 14447,
+        "sha256": "e768c2c5001463fb102c589fb763b7fc76815cf61896a4a22b228fd029de065a"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/sources/trait_data.inc",
+        "bytes": 686182,
+        "sha256": "7b742e7def56b23733bb50fda7367bfbed083ff637714091b492310401b41e67"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/strict_talents.py",
+        "bytes": 5816,
+        "sha256": "b438e18d695bca83b49d51dfeca4b6a8c1c8f47f843ec49f2d2db4b9d50371b7"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/supported_source.json",
+        "bytes": 382,
+        "sha256": "e569a18f9cc7855d0308b9ac11e16604e4427d41259b1b9b09dc6ed9d5f70004"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/talent_core.py",
+        "bytes": 5939,
+        "sha256": "e710fa5c913f09f57bfad7335600357e54e99618f144dceff0c76dfbe1433ae7"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/talent_model.py",
+        "bytes": 5408,
+        "sha256": "b6377a136f1e51ef319a92a70cd477d1f7c8c6028be169c3b4f4300fa52291ba"
+      }
+    },
+    {
+      "copy": {
+        "path": "icon_dialog.py",
+        "bytes": 868,
+        "sha256": "ded17325661f447e4ff05d5190d6a6c0af8a648eadde1e81e5ea8a198721a028"
+      }
+    },
+    {
+      "copy": {
+        "path": "icon_pack.py",
+        "bytes": 5368,
+        "sha256": "ffacc7549768ce1156c42998a0138eb5a07f07680621d7ddc6193e0cb2361949"
+      }
+    },
+    {
+      "copy": {
+        "path": "icon_rules.json",
+        "bytes": 1654,
+        "sha256": "650ffa9ba63599a1f30bfe7e67f686a43e87fc07401c1e767c4d6b871b74c988"
+      }
+    },
+    {
+      "copy": {
+        "path": "icon_store.py",
+        "bytes": 2313,
+        "sha256": "a4d6113d3ab58ceb1ea6594408b4bb9c69aa71d3460d9f112ed33d567439d8b4"
+      }
+    },
+    {
+      "copy": {
+        "path": "keybindings.py",
+        "bytes": 3003,
+        "sha256": "e2e6c6042cba166b5a710582f468bbd0e05ff189fe40bfb0a0c3907a7b03ec07"
+      }
+    },
+    {
+      "copy": {
+        "path": "launch.py",
+        "bytes": 2827,
+        "sha256": "8f1bba06e30d3177da810e4460cbaad830385858c1ca6080fed231066c32985d"
+      }
+    },
+    {
+      "copy": {
+        "path": "LICENSE.txt",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      }
+    },
+    {
+      "copy": {
+        "path": "LICENSING.txt",
+        "bytes": 2417,
+        "sha256": "08803d6be8fc730ab14726e35fe66952fbaf6659eb4eb5c999170c62b4642b80"
+      }
+    },
+    {
+      "copy": {
+        "path": "live_input.py",
+        "bytes": 3302,
+        "sha256": "b4c0576fa86db22a7d42598f81ff6041c6c93e139e3189827915bf15ed14045a"
+      }
+    },
+    {
+      "copy": {
+        "path": "location_feedback.py",
+        "bytes": 1156,
+        "sha256": "fe169a34fd88cbf80fefb97680ead645a61bbd21e8645ce3998b304a6b4b3fa7"
+      }
+    },
+    {
+      "copy": {
+        "path": "log_files.py",
+        "bytes": 5722,
+        "sha256": "ca71335566e2ed513686a08f57e41675115ce6f04462b2f8f6d7b041d20a07e0"
+      }
+    },
+    {
+      "copy": {
+        "path": "main_window.py",
+        "bytes": 10966,
+        "sha256": "c25e8c1d5f3867a494471ac7c338b4b49dfae3112c776719ccb8603e211c5988"
+      }
+    },
+    {
+      "copy": {
+        "path": "memory_store.py",
+        "bytes": 3874,
+        "sha256": "03e8097d49b16e7c97fa2103d8532828be9695af9974dc1f62c3d6d64c4b7487"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/01_LICENSE.txt",
+        "bytes": 9519,
+        "sha256": "7f6839a61ce892b79c6549e2dc5a81fdbd240a0b260f8881216b45b7fda8b45d"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/02_ThirdPartyNotices.txt",
+        "bytes": 96177,
+        "sha256": "1271701f435f7fe4aa81dc7e273ca80b6391b73580ee20b35a956052c95de4cf"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/03_LICENSE.txt",
+        "bytes": 1094,
+        "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/04_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/05_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/06_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/07_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 15835,
+        "sha256": "7864a01e2fdef7e8fdf81b906efb1466f083206affea7ba7e6dadea429754765"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/08_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/09_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/10_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/11_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/12_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/13_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/14_LICENSE.txt",
+        "bytes": 32762,
+        "sha256": "792fd2d8227bb8785d144c40359b38d752842754e458102ba436fd46252763f3"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/15_license.terms",
+        "bytes": 2307,
+        "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/16_license.terms",
+        "bytes": 2307,
+        "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/17_License.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/18_License.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/19_License.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/20_License.txt",
+        "bytes": 18174,
+        "sha256": "49cf79bdb35734b52fe6203013b3bd759f81e998cd32aa2c65c51db9a88c61d2"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/21_License.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/22_License.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/23_LICENSE",
+        "bytes": 1094,
+        "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/24_ThirdPartyNotices.txt",
+        "bytes": 333022,
+        "sha256": "e00f828e0a33de591a355ae6606d2625f5758da7d2c844db7821c9dd3e3647b6"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/INSTALL_TERMS.txt",
+        "bytes": 129027,
+        "sha256": "cc68003f21b66f8daf5ec9844c256896f9aab08be58f6c5690250fe708e999e9"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/Microsoft_Windows_SDK_Exact_License.rtf",
+        "bytes": 246945,
+        "sha256": "dd07eb178e00c6bba4148457fc00ff77cd4887eb521d504186fe59c9ec8bbe62"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/Microsoft_Windows_SDK_LICENSE.txt",
+        "bytes": 27694,
+        "sha256": "2ac449661bcf9b5a22ee8d69909fd66e0cce4bd2cb8196ce4781a6b3d429c5ec"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/Microsoft_Windows_SDK_REDIST.txt",
+        "bytes": 17406,
+        "sha256": "f32309e2af3697461c9caa77d4897c1876a4f62fa41bdf77f608ba9554abc91d"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NOTICE_INDEX.txt",
+        "bytes": 3049,
+        "sha256": "9865a42a63472cf3565089a633349d10674508050b73f797d4c2d8935d62fece"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2.nuspec",
+        "bytes": 2273,
+        "sha256": "4b026720bfa5485d74be270a429d5fe0b653572f144c97b170a52a57b9fc3317"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2_LICENSE.txt",
+        "bytes": 1094,
+        "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2_ThirdPartyNotices.txt",
+        "bytes": 333022,
+        "sha256": "e00f828e0a33de591a355ae6606d2625f5758da7d2c844db7821c9dd3e3647b6"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Microsoft.Windows.SDK.NET.Ref_10.0.22621.56.nuspec",
+        "bytes": 1284,
+        "sha256": "2f3fd3e9c655ad392701993a47e5b1e255f1393c8f0e4a7d7bbe399666cb8475"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_SharpGen.Runtime.COM_2.4.2-beta.nuspec",
+        "bytes": 3107,
+        "sha256": "fd79838f249d7b1de60f87edbe64dc435318e48dc1b912d6c7157f38d3cf01bb"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_SharpGen.Runtime.COM_2.4.2-beta_LICENSE.txt",
+        "bytes": 1689,
+        "sha256": "cecedda5da40256b5831372c18899fe3ce3d45c516c897f1c3314d985fb600cc"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_SharpGen.Runtime_2.4.2-beta.nuspec",
+        "bytes": 1821,
+        "sha256": "f4774be25bdec109703d6ca55e6b1e2ebf613a17aed989cd86dd57fc92c628e8"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_SharpGen.Runtime_2.4.2-beta_LICENSE.txt",
+        "bytes": 1685,
+        "sha256": "a0649c08ce067056e83558a058cdf6329f5d5869f6f4176b9200358f0047be43"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.IO.Pipelines_9.0.1.nuspec",
+        "bytes": 1797,
+        "sha256": "4b23a3b38f1ddc5f38ef750a5985154b91fb525e55c406107ad9a00e395a6131"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.IO.Pipelines_9.0.1_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.IO.Pipelines_9.0.1_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Memory_4.5.5.nuspec",
+        "bytes": 5381,
+        "sha256": "745bfa574a0fe397559dad595fd0b73a38d7dde40703bb8f0f1eba82edf99aa7"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Memory_4.5.5_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Memory_4.5.5_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 15835,
+        "sha256": "7864a01e2fdef7e8fdf81b906efb1466f083206affea7ba7e6dadea429754765"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Numerics.Tensors_9.0.0.nuspec",
+        "bytes": 1482,
+        "sha256": "52f3ac41d9235ca1e544e27145aeeef36c2dc2159c33936932d5f9c34267a14e"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Numerics.Tensors_9.0.0_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Numerics.Tensors_9.0.0_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Encodings.Web_9.0.1.nuspec",
+        "bytes": 1932,
+        "sha256": "1ca32082e7eb1a2720f9f4861d42aa2a464e3c65ceed2867daa3407e9e7104f1"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Encodings.Web_9.0.1_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Encodings.Web_9.0.1_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Json_9.0.1.nuspec",
+        "bytes": 3288,
+        "sha256": "9c3efd2dc97255abc7bad23526584858e668b88519c88791b74ac3fc0e6967b5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Json_9.0.1_LICENSE.TXT",
+        "bytes": 1139,
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_System.Text.Json_9.0.1_THIRD-PARTY-NOTICES.TXT",
+        "bytes": 75640,
+        "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.Direct3D11_3.8.3.nuspec",
+        "bytes": 1602,
+        "sha256": "1402ca7f4434d3019965a628d8be80f9ae4f3a26d20a82f46cc124eb6ff0a00e"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.Direct3D11_3.8.3_LICENSE.txt",
+        "bytes": 1642,
+        "sha256": "72fb4c8d91c577fe0218f7ff1ccf59da69eb6f5a2379a26e05b70d53d13dbd78"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.DirectX_3.8.3.nuspec",
+        "bytes": 2979,
+        "sha256": "59eb06859ae15762b2d7024b5b5f2cf88fdd01e424e66d59aaf437599b8a41c3"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.DirectX_3.8.3_LICENSE.txt",
+        "bytes": 1639,
+        "sha256": "3d897626d50cf68b3f270a5b3437a88d1d4cbe23be5aa36a107ec03c25fb1691"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.DXGI_3.8.3.nuspec",
+        "bytes": 2362,
+        "sha256": "bba472939b83af8b19bdb6ea843cac47d608f71af6af97846a5fe0096ccebf6c"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.DXGI_3.8.3_LICENSE.txt",
+        "bytes": 1636,
+        "sha256": "77193775e3865bdaced2b3951951c8506ae9eb6c30b25a9bb15bcc8d5ba4ab4f"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.Mathematics_2.1.0.nuspec",
+        "bytes": 1268,
+        "sha256": "e2125fa763fb632951f1e63256e7e24e4a63e8bb2a58cc73376720d7e76efcf9"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NuGet_Vortice.Mathematics_2.1.0_LICENSE.txt",
+        "bytes": 1643,
+        "sha256": "5172e2555fd04b7438a63db9d5a554df7f38383b2f235837cf6af41f7959da27"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NUMBERED_NOTICE_INDEX.json",
+        "bytes": 7057,
+        "sha256": "b7bdc11e34874e1c5038cd008f6c53279426562e5103f56f1a29fe266f1d7adc"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NVIDIA_CUDA_WHEEL_LICENSE.txt",
+        "bytes": 59262,
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/NVIDIA_cuDNN_redist_LICENSE.txt",
+        "bytes": 29662,
+        "sha256": "4fce5a3b1ecaf4d7d202478e969e4563c7220db2718a76067e286c0202e1195f"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/PACKAGE_INDEX.json",
+        "bytes": 5859,
+        "sha256": "4ce1eac60c28166d014b03a6bd5cc2cf1173e9cfee969b05a72fc73e16804123"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/PaddleOCR_LICENSE.txt",
+        "bytes": 11376,
+        "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/RapidOCR_3.8.4_LICENSE.txt",
+        "bytes": 11422,
+        "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/RyoGeese_Reader_Additional_Permission.txt",
+        "bytes": 977,
+        "sha256": "aa660754d851d39dc8a7f6214af6a9799548cf48f02a11d7aaa5e5b4f86c528f"
+      }
+    },
+    {
+      "copy": {
+        "path": "notices/SimulationCraft_LICENSE.txt",
+        "bytes": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    },
+    {
+      "copy": {
+        "path": "package_paths.py",
+        "bytes": 543,
+        "sha256": "9cf6e4a6b53a0a438e96cda8b36e43a47901df35d1edfbda3436d810664df992"
+      }
+    },
+    {
+      "copy": {
+        "path": "pipeline_report.py",
+        "bytes": 4025,
+        "sha256": "e7183f7594a3d4b09f58ed34722a7c916ebbec97324ebfb23e97e8372bb4f0fb"
+      }
+    },
+    {
+      "copy": {
+        "path": "pipeline_types.py",
+        "bytes": 944,
+        "sha256": "3d994f5275d482044fb835b3751d2d226f664d9928613852bb9d966dd29ff79c"
+      }
+    },
+    {
+      "copy": {
+        "path": "presentation_state.py",
+        "bytes": 3502,
+        "sha256": "011e44520d30e4aec74a9cfabdb4024a00fcb6b8c80103c234099a29675bec13"
+      }
+    },
+    {
+      "copy": {
+        "path": "recommendation_log.py",
+        "bytes": 5164,
+        "sha256": "6a0aaa6a7cc754dca4c92c2dbacf57dd5b8e9c13554fb6431e8982f70e05918b"
+      }
+    },
+    {
+      "copy": {
+        "path": "recommendation_window.py",
+        "bytes": 10004,
+        "sha256": "b5d277f4cb7d6f9cce152310217d2641468dc2e64c01e32209eb8519781fe1da"
+      }
+    },
+    {
+      "copy": {
+        "path": "release.json",
+        "bytes": 116,
+        "sha256": "ae8671ed974f499a3769d4d091375336946007e600f42a76742a101978f30e42"
+      }
+    },
+    {
+      "copy": {
+        "path": "release_info.py",
+        "bytes": 1523,
+        "sha256": "d880659d0648f675c65311ae03cc8cd33cfc7810ced08a16fd0226bf0676f0e9"
+      }
+    },
+    {
+      "copy": {
+        "path": "resource_probe.py",
+        "bytes": 6050,
+        "sha256": "57b0107c2346ed12b69d9eddc96f1c5ee285ac858045997e71ae6ba9f28d4627"
+      }
+    },
+    {
+      "copy": {
+        "path": "runtime_metadata.json",
+        "bytes": 134,
+        "sha256": "e6790ed56e03222590012ec954e3deadcecd792e05478db3e8ed551917759f0d"
+      }
+    },
+    {
+      "copy": {
+        "path": "sequential_worker.py",
+        "bytes": 4933,
+        "sha256": "7c4ce228e775e5dfdb63c88e838053550a6ae30a0d1b107c0f0e2c8a5793346a"
+      }
+    },
+    {
+      "copy": {
+        "path": "session_evaluator.py",
+        "bytes": 2372,
+        "sha256": "0d2159ede8c16d0fca01d55edd516d95db50f6d5de746e8e01806093bf60300e"
+      }
+    },
+    {
+      "copy": {
+        "path": "session_monitor.py",
+        "bytes": 5192,
+        "sha256": "8f456bae976e5a955d08710a638ba6ff760db6252c4a009f502959ed0fe3e2ed"
+      }
+    },
+    {
+      "copy": {
+        "path": "setup_dialogs.py",
+        "bytes": 5777,
+        "sha256": "9d366c17a3559cabdc7f16551f118fc97573156323bd8ee13e6b0e71e80bc27b"
+      }
+    },
+    {
+      "copy": {
+        "path": "short_review.py",
+        "bytes": 8464,
+        "sha256": "a39b7e1d7f214ae0e18d19ca251ef11c55e28e43aa6dba83147f30f9a03573f2"
+      }
+    },
+    {
+      "copy": {
+        "path": "shutdown.py",
+        "bytes": 488,
+        "sha256": "32de3a8616131037e2506691570a97924011d948e5f74ec38910e002c84e5a9d"
+      }
+    },
+    {
+      "copy": {
+        "path": "SOURCE.txt",
+        "bytes": 950,
+        "sha256": "47bc68045e42f11dc5532cef0add6765b6b166726a1ff1c1296f0098fe35cffd"
+      }
+    },
+    {
+      "copy": {
+        "path": "spell_icons.py",
+        "bytes": 2004,
+        "sha256": "744cffac956f018e67116c4d01d1b7a80fe473a6558184b7b14c761ec4bc5339"
+      }
+    },
+    {
+      "copy": {
+        "path": "start_sound.py",
+        "bytes": 173,
+        "sha256": "1445dc1c204654a96833fa07cfb309df217b999d53e4dee78356c94190873032"
+      }
+    },
+    {
+      "copy": {
+        "path": "startup.py",
+        "bytes": 12660,
+        "sha256": "5169f1f9266c4b3737bcc1517241d59b18797e71f8c92d9d0d023ed72394cbd0"
+      }
+    },
+    {
+      "copy": {
+        "path": "template_contract.json",
+        "bytes": 1499,
+        "sha256": "e05134a5595c7ffe3e7aff21b9f45a577b760262469d37ccc52c8361d411736b"
+      }
+    },
+    {
+      "copy": {
+        "path": "templates.py",
+        "bytes": 1409,
+        "sha256": "1ff7206163ac0051277b504034f879214cdf326c9f04ae6f2e18ca1cfc5b3f4e"
+      }
+    },
+    {
+      "copy": {
+        "path": "THIRD_PARTY_NOTICES.txt",
+        "bytes": 2481,
+        "sha256": "d0e6b85fd5fc44f6c0e42e84e0a80c6ae4585b87ca9d11f875fc8063090612e6"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_backend.py",
+        "bytes": 5898,
+        "sha256": "a79f2fc02d78e1da00cd1fe051366faf9b9b6d75cbd38a31cb2d0a366e269de3"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/cpu_policies.py",
+        "bytes": 1743,
+        "sha256": "e62d0d45c5ad1aa6d438f15472b1efe132ea6c8dfb32024e90a9c70825a87f25"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/display_state.py",
+        "bytes": 4908,
+        "sha256": "b93528b8e82074af5af865db9758c823006e01f74ead65a52ff12cd553befa1f"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/fact_stream.py",
+        "bytes": 6330,
+        "sha256": "ace682eb1de3e6ceb177e38cdf815e3114aa1f9716145d91ad2a398c8eb194d8"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/gpu_panel.py",
+        "bytes": 17719,
+        "sha256": "16c39e31978c65b6df09f5c3c7bafce2270e497a2c4ba2144f8334473e1ad5e3"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/journal.py",
+        "bytes": 2249,
+        "sha256": "1d4c4383e64f7caa9cf7a6881921ac46a1ede6497af26184dd8a7925f998aa39"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/live_defaults.json",
+        "bytes": 136,
+        "sha256": "adc58c72579139b449583621cd190aad8169388ff9ad4a89e76a613c9c43a419"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/owned_process.py",
+        "bytes": 3340,
+        "sha256": "8250abe12601264f8f905cd61396b2506e8299273b1aa2251b60a34fe3781385"
+      }
+    },
+    {
+      "copy": {
+        "path": "visual_runtime/runtime_lock.json",
+        "bytes": 378921,
+        "sha256": "1d60cd7a45df1b25c56564256e6f472b3e74e314a57c6f6692c281708183f512"
+      }
+    },
+    {
+      "copy": {
+        "path": "发布候选说明.txt",
+        "bytes": 1346,
+        "sha256": "692a3268e4f48b34282897dc83d3d76f119297179abd97d7e5c6d8c1c635d9c5"
+      }
+    },
+    {
+      "copy": {
+        "path": "启动软件.ps1",
+        "bytes": 1765,
+        "sha256": "d594ff0dad54d8bccfa1d7ee4a1851f0918800f514a65d47914b2b6e2287a6a4"
+      }
+    },
+    {
+      "copy": {
+        "path": "图标导入规则.txt",
+        "bytes": 869,
+        "sha256": "ed99d1304112ab113dae0ff01527492dfd49826f58963d56e76642265a32ba61"
+      }
+    },
+    {
+      "copy": {
+        "path": "打开RyoGeese.cmd",
+        "bytes": 129,
+        "sha256": "d9cc8a4071668d83c73985cbb935e9b16b68e6c269e062c46074d0e69a83e025"
+      }
+    },
+    {
+      "copy": {
+        "path": "点我启动.exe",
+        "bytes": 72192,
+        "sha256": "26c88d7e712c27d37dd4582ff9c3f7d5e88b918385bbbd060bd48ca49c323ff2"
+      }
+    },
+    {
+      "copy": {
+        "path": "运行边界说明.txt",
+        "bytes": 1251,
+        "sha256": "310bac5c2d7c93dfa06e4afc86c92920113a2ac67acad1def09e189f26cebef5"
+      }
+    }
+  ]
+}

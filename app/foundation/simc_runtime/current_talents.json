@@ -1,0 +1,19 @@
+{
+  "schema": "shadow_priest_common_voidweaver_talents/1",
+  "hero": "voidweaver",
+  "commit": "4c7c73621e596419b5bd6faa5d68940a9c640379",
+  "build": "12.1.0.69933",
+  "talents": {
+    "invoked_nightmare": true,
+    "misery": false,
+    "ancient_madness": true,
+    "improved_voidform": false,
+    "devour_matter": true,
+    "distorted_reality": true,
+    "mind_devourer": false,
+    "thought_harvester": false,
+    "void_apparitions": 4,
+    "maddening_tentacles": true,
+    "deathspeaker": false
+  }
+}

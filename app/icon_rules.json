@@ -1,0 +1,66 @@
+{
+  "schema": "ryogeese-icon-rules/1",
+  "templates": {
+    "priest.shadow.voidweaver.single": {
+      "label": "暗牧",
+      "skills": {
+        "voidform": {
+          "label": "虚空形态",
+          "spellId": 228260
+        },
+        "power_infusion": {
+          "label": "能量灌注",
+          "spellId": 10060
+        },
+        "tentacle_slam": {
+          "label": "触须猛击",
+          "spellId": 1227280
+        },
+        "vampiric_touch": {
+          "label": "吸血鬼之触",
+          "spellId": 34914
+        },
+        "shadow_word_madness": {
+          "label": "暗言术：癫",
+          "spellId": 335467
+        },
+        "void_torrent": {
+          "label": "虚空洪流",
+          "spellId": 263165
+        },
+        "shadow_word_pain": {
+          "label": "暗言术：痛",
+          "spellId": 589
+        },
+        "void_volley": {
+          "label": "虚空齐射",
+          "spellId": 1242173
+        },
+        "void_blast": {
+          "label": "虚空冲击",
+          "spellId": 450405
+        },
+        "mind_blast": {
+          "label": "心灵震爆",
+          "spellId": 8092
+        },
+        "shadow_word_death": {
+          "label": "暗言术：灭",
+          "spellId": 32379
+        },
+        "mind_flay": {
+          "label": "精神鞭笞",
+          "spellId": 15407
+        }
+      }
+    }
+  },
+  "pack": {
+    "format": "zip",
+    "naming": "<spellId>.png or icons/<spellId>.png",
+    "scope": "all classes",
+    "maxBytes": 134217728,
+    "maxFiles": 8192,
+    "update": "atomic whole-pack replacement"
+  }
+}

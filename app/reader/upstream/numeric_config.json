@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0-CAL",
+  "strategy": "edge_native_confirmed_retry",
+  "ocr_min_score": 0.85,
+  "onnx_threads": [4, 1],
+  "rec_batch_num": 24,
+  "rec_img_shape": [3, 48, 96],
+  "state_templates": "unchanged frozen 0.1.0 input and 18 nonnumeric templates",
+  "numeric_border_policy": "outer edge only; at least 90pct line; 2 inward blank rows/cols; tight crop unchanged surviving glyph pixels",
+  "numeric_resize": "isolated border -> native glyph + pad5; no border -> unchanged original input; low numeric score -> native retry with exact text agreement",
+  "numeric_structure_guard": "ASCII digit length must equal independent ink component count (area>=6); column spans recorded; no boundary touching",
+  "acceptance": "unchanged threshold; never infer digits from time, other fields or prior values",
+  "support": "original CAL scale approximately 1.385 only; not independent VAL"
+}

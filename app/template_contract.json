@@ -1,0 +1,38 @@
+{
+  "schema": "dash-template-contract/1",
+  "columns": {
+    "A": "技能自身状态；冷却、充能、次数分别声明",
+    "B": "当前目标上本人施加的持续效果",
+    "C1": "当前目标血量百分数",
+    "C2": "玩家第一战斗资源的当前值与实际上限",
+    "C3": "玩家第二战斗资源的预留位置；当前暗牧未实现、不创建、不补值",
+    "D": "玩家身上的指定增益效果"
+  },
+  "layoutRules": [
+    "横平竖直，已有格子的编号与位置保持",
+    "停用格子保留位置，未配置与效果不存在分开",
+    "新增格子优先追加，几何变化必须登记布局版本",
+    "战斗中效果变化只改变内容，不重排格子",
+    "共享字体规格、格子样式、定位标记；新专精仍核对字段与实际布局"
+  ],
+  "implemented": [{
+    "id": "priest.shadow.voidweaver.single",
+    "pluginProfile": "shadow",
+    "layout": "L16",
+    "resources": ["C2"],
+    "reservedResources": ["C3"],
+    "readerFieldCount": 25,
+    "keyCount": 12,
+    "buttonGroupCount": 10,
+    "sharedButtons": {"void_blast": "mind_blast", "void_volley": "voidform"},
+    "scope": "暗牧虚空编织者BOSS单体；仅受支持配置"
+  }],
+  "planned": [{
+    "actor": "warlock",
+    "specialization": "demonology",
+    "supported": false,
+    "rotationModule": null,
+    "readerProfile": null,
+    "note": "恶魔术占位，需单独核实插件信息、资源、循环与按键模板；不得套用暗牧"
+  }]
+}

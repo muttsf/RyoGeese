@@ -1,0 +1,35 @@
+Numbered third-party notice files (01-24)
+
+Numbers are preserved historical filenames, not priority or licence versions.
+NuGet notices and original metadata: PACKAGE_INDEX.json.
+NVIDIA CUDA package terms: NVIDIA_CUDA_WHEEL_LICENSE.txt (same bytes as 17/18/19/21/22).
+cuDNN current redist terms: NVIDIA_cuDNN_redist_LICENSE.txt; original wheel text: 20_License.txt.
+Microsoft SDK projection: Microsoft_Windows_SDK_Exact_License.rtf and the SDK LICENSE/REDIST texts.
+Microsoft .NET runtime: 01_LICENSE.txt and runtime/dotnet/LICENSE.txt in the assembled software.
+The installer presents these nonfree binary terms in INSTALL_TERMS.txt.
+These terms do not change GPL rights in RyoGeese or SimulationCraft source.
+
+01_LICENSE.txt -> Microsoft .NET runtime 8.0.32 (Windows binary distribution) -> Microsoft .NET Library terms; third-party notices
+02_ThirdPartyNotices.txt -> Microsoft .NET runtime 8.0.32 (Windows binary distribution) -> Microsoft .NET Library terms; third-party notices
+03_LICENSE.txt -> microsoft.ml.onnxruntime.managed 1.23.2 -> Original NuGet package licence / third-party notices
+04_LICENSE.TXT -> system.io.pipelines 9.0.1 -> Original NuGet package licence / third-party notices
+05_THIRD-PARTY-NOTICES.TXT -> system.io.pipelines 9.0.1 -> Original NuGet package licence / third-party notices
+06_LICENSE.TXT -> system.memory 4.5.5 -> Original NuGet package licence / third-party notices
+07_THIRD-PARTY-NOTICES.TXT -> system.memory 4.5.5 -> Original NuGet package licence / third-party notices
+08_LICENSE.TXT -> system.numerics.tensors 9.0.0 -> Original NuGet package licence / third-party notices
+09_THIRD-PARTY-NOTICES.TXT -> system.numerics.tensors 9.0.0 -> Original NuGet package licence / third-party notices
+10_LICENSE.TXT -> system.text.encodings.web 9.0.1 -> Original NuGet package licence / third-party notices
+11_THIRD-PARTY-NOTICES.TXT -> system.text.encodings.web 9.0.1 -> Original NuGet package licence / third-party notices
+12_LICENSE.TXT -> system.text.json 9.0.1 -> Original NuGet package licence / third-party notices
+13_THIRD-PARTY-NOTICES.TXT -> system.text.json 9.0.1 -> Original NuGet package licence / third-party notices
+14_LICENSE.txt -> CPython 3.10.8 -> PSF and bundled third-party licences
+15_license.terms -> Tcl/Tk 8.6.12 -> Tcl/Tk licence.terms
+16_license.terms -> Tcl/Tk 8.6.12 -> Tcl/Tk licence.terms
+17_License.txt -> nvidia_cublas_cu12-12.9.2.10 -> NVIDIA proprietary package terms
+18_License.txt -> nvidia_cuda_nvrtc_cu12-12.9.86 -> NVIDIA proprietary package terms
+19_License.txt -> nvidia_cuda_runtime_cu12-12.9.79 -> NVIDIA proprietary package terms
+20_License.txt -> nvidia_cudnn_cu12-9.27.0.42 -> NVIDIA proprietary package terms
+21_License.txt -> nvidia_cufft_cu12-11.4.1.4 -> NVIDIA proprietary package terms
+22_License.txt -> nvidia_curand_cu12-10.3.10.19 -> NVIDIA proprietary package terms
+23_LICENSE -> ONNX Runtime GPU 1.23.2 -> MIT / bundled third-party notices
+24_ThirdPartyNotices.txt -> ONNX Runtime GPU 1.23.2 -> MIT / bundled third-party notices

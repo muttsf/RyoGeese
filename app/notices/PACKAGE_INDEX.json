@@ -1,0 +1,153 @@
+[
+  {
+    "id": "Microsoft.ML.OnnxRuntime.Managed",
+    "version": "1.23.2",
+    "packageSHA256": "6e29d09318b9ec1a3207fd97fe0dfebfcccec15b936c85bdff2f6c8080e91836",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "LICENSE.txt",
+    "notices": [
+      "NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2_ThirdPartyNotices.txt",
+      "NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_Microsoft.ML.OnnxRuntime.Managed_1.23.2.nuspec"
+  },
+  {
+    "id": "Microsoft.Windows.SDK.NET.Ref",
+    "version": "10.0.22621.56",
+    "packageSHA256": "bf7856f3af42e111b8cb831207d5a732aff35b8bbda0f71110a8585fac23b904",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "https://aka.ms/WinSDKLicenseURL",
+    "notices": [
+      "Microsoft_Windows_SDK_LICENSE.txt",
+      "Microsoft_Windows_SDK_Exact_License.rtf",
+      "Microsoft_Windows_SDK_REDIST.txt"
+    ],
+    "originalMetadata": "NuGet_Microsoft.Windows.SDK.NET.Ref_10.0.22621.56.nuspec"
+  },
+  {
+    "id": "SharpGen.Runtime",
+    "version": "2.4.2-beta",
+    "packageSHA256": "5bdcebee0bdc3c15dc6e9b73f82faa98575ea749b92d6ae30106feb44bd23f18",
+    "copyright": "(c) 2010-2017 Alexandre Mutel, 2017-2023 Jeremy Koritzinsky, 2023-2024 Amer Koleci",
+    "license": "MIT",
+    "notices": [
+      "NuGet_SharpGen.Runtime_2.4.2-beta_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_SharpGen.Runtime_2.4.2-beta.nuspec"
+  },
+  {
+    "id": "SharpGen.Runtime.COM",
+    "version": "2.4.2-beta",
+    "packageSHA256": "32a81aec51f9ffee3376a29db7f9a2447e250cf1cccd352ea02fc4dc49fd046c",
+    "copyright": "(c) 2010-2017 Alexandre Mutel, 2017-2023 Jeremy Koritzinsky, 2023-2024 Amer Koleci",
+    "license": "MIT",
+    "notices": [
+      "NuGet_SharpGen.Runtime.COM_2.4.2-beta_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_SharpGen.Runtime.COM_2.4.2-beta.nuspec"
+  },
+  {
+    "id": "System.IO.Pipelines",
+    "version": "9.0.1",
+    "packageSHA256": "0a79836a79270866cd9e80e3819c3ad8cfc6ae0f083132436bcc773f4ed44760",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "notices": [
+      "NuGet_System.IO.Pipelines_9.0.1_LICENSE.TXT",
+      "NuGet_System.IO.Pipelines_9.0.1_THIRD-PARTY-NOTICES.TXT"
+    ],
+    "originalMetadata": "NuGet_System.IO.Pipelines_9.0.1.nuspec"
+  },
+  {
+    "id": "System.Memory",
+    "version": "4.5.5",
+    "packageSHA256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+    "notices": [
+      "NuGet_System.Memory_4.5.5_LICENSE.TXT",
+      "NuGet_System.Memory_4.5.5_THIRD-PARTY-NOTICES.TXT"
+    ],
+    "originalMetadata": "NuGet_System.Memory_4.5.5.nuspec"
+  },
+  {
+    "id": "System.Numerics.Tensors",
+    "version": "9.0.0",
+    "packageSHA256": "b750243c36002a62b28b1ac5d3fbc284ad340ba1494cc36aca110611a0b1f959",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "notices": [
+      "NuGet_System.Numerics.Tensors_9.0.0_LICENSE.TXT",
+      "NuGet_System.Numerics.Tensors_9.0.0_THIRD-PARTY-NOTICES.TXT"
+    ],
+    "originalMetadata": "NuGet_System.Numerics.Tensors_9.0.0.nuspec"
+  },
+  {
+    "id": "System.Text.Encodings.Web",
+    "version": "9.0.1",
+    "packageSHA256": "8ae0157138a26502c26630df0ea74b2cf1ea65d66abc569bc0b14789561d449a",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "notices": [
+      "NuGet_System.Text.Encodings.Web_9.0.1_LICENSE.TXT",
+      "NuGet_System.Text.Encodings.Web_9.0.1_THIRD-PARTY-NOTICES.TXT"
+    ],
+    "originalMetadata": "NuGet_System.Text.Encodings.Web_9.0.1.nuspec"
+  },
+  {
+    "id": "System.Text.Json",
+    "version": "9.0.1",
+    "packageSHA256": "d9da84f8cc7978967c75bef8a1f5225171ce4b10c2997c399fd542f70e1f52bd",
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "notices": [
+      "NuGet_System.Text.Json_9.0.1_LICENSE.TXT",
+      "NuGet_System.Text.Json_9.0.1_THIRD-PARTY-NOTICES.TXT"
+    ],
+    "originalMetadata": "NuGet_System.Text.Json_9.0.1.nuspec"
+  },
+  {
+    "id": "Vortice.Direct3D11",
+    "version": "3.8.3",
+    "packageSHA256": "1df046bdcf739b9fd368f0046f82645b777ebc5e6ef67b9f47eb661cb0001064",
+    "copyright": "Copyright (c) Amer Koleci and Contributors",
+    "license": "MIT",
+    "notices": [
+      "NuGet_Vortice.Direct3D11_3.8.3_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_Vortice.Direct3D11_3.8.3.nuspec"
+  },
+  {
+    "id": "Vortice.DirectX",
+    "version": "3.8.3",
+    "packageSHA256": "d9d67d3be6226411fba29f7dd87baffe824dbf048f39c1878879ed1cea9e7c13",
+    "copyright": "Copyright (c) Amer Koleci and Contributors",
+    "license": "MIT",
+    "notices": [
+      "NuGet_Vortice.DirectX_3.8.3_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_Vortice.DirectX_3.8.3.nuspec"
+  },
+  {
+    "id": "Vortice.DXGI",
+    "version": "3.8.3",
+    "packageSHA256": "334b3eae1c9b2dfaf609d58c2938d41240658044e14cf5fc030ff5f190f3903c",
+    "copyright": "Copyright (c) Amer Koleci and Contributors",
+    "license": "MIT",
+    "notices": [
+      "NuGet_Vortice.DXGI_3.8.3_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_Vortice.DXGI_3.8.3.nuspec"
+  },
+  {
+    "id": "Vortice.Mathematics",
+    "version": "2.1.0",
+    "packageSHA256": "15faefe786bc5bb8a2e0fe1e73fae7038f1aa2204ff711c3581944cd77ffadae",
+    "copyright": "Copyright (c) Amer Koleci and Contributors",
+    "license": "MIT",
+    "notices": [
+      "NuGet_Vortice.Mathematics_2.1.0_LICENSE.txt"
+    ],
+    "originalMetadata": "NuGet_Vortice.Mathematics_2.1.0.nuspec"
+  }
+]

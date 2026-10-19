@@ -1,0 +1,13 @@
+{
+  "schema": "shadow_priest_mechanism_profile/1",
+  "tier_mode": "unknown_no_four_piece",
+  "hero": "voidweaver",
+  "talent_scope": "10月8导出和10月12确认的既有天赋",
+  "actual_four_piece": false,
+  "actual_two_piece": null,
+  "ordinary_equipment_changed": true,
+  "new_item_export_required": false,
+  "priority_core": "frozen_v1.py byte-identical",
+  "purpose": "ordinary gear changes reuse same logic; source-grounded mechanism switches only",
+  "liveIntegration": false
+}

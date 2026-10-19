@@ -1,0 +1,170 @@
+[
+  {
+    "file": "01_LICENSE.txt",
+    "component": "Microsoft .NET runtime 8.0.32 (Windows binary distribution)",
+    "sourcePackage": "dotnet-runtime-win-x64",
+    "licence": "Microsoft .NET Library terms; third-party notices",
+    "sha256": "7f6839a61ce892b79c6549e2dc5a81fdbd240a0b260f8881216b45b7fda8b45d"
+  },
+  {
+    "file": "02_ThirdPartyNotices.txt",
+    "component": "Microsoft .NET runtime 8.0.32 (Windows binary distribution)",
+    "sourcePackage": "dotnet-runtime-win-x64",
+    "licence": "Microsoft .NET Library terms; third-party notices",
+    "sha256": "1271701f435f7fe4aa81dc7e273ca80b6391b73580ee20b35a956052c95de4cf"
+  },
+  {
+    "file": "03_LICENSE.txt",
+    "component": "microsoft.ml.onnxruntime.managed 1.23.2",
+    "sourcePackage": "microsoft.ml.onnxruntime.managed/1.23.2",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+  },
+  {
+    "file": "04_LICENSE.TXT",
+    "component": "system.io.pipelines 9.0.1",
+    "sourcePackage": "system.io.pipelines/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "05_THIRD-PARTY-NOTICES.TXT",
+    "component": "system.io.pipelines 9.0.1",
+    "sourcePackage": "system.io.pipelines/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+  },
+  {
+    "file": "06_LICENSE.TXT",
+    "component": "system.memory 4.5.5",
+    "sourcePackage": "system.memory/4.5.5",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "07_THIRD-PARTY-NOTICES.TXT",
+    "component": "system.memory 4.5.5",
+    "sourcePackage": "system.memory/4.5.5",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "7864a01e2fdef7e8fdf81b906efb1466f083206affea7ba7e6dadea429754765"
+  },
+  {
+    "file": "08_LICENSE.TXT",
+    "component": "system.numerics.tensors 9.0.0",
+    "sourcePackage": "system.numerics.tensors/9.0.0",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "09_THIRD-PARTY-NOTICES.TXT",
+    "component": "system.numerics.tensors 9.0.0",
+    "sourcePackage": "system.numerics.tensors/9.0.0",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+  },
+  {
+    "file": "10_LICENSE.TXT",
+    "component": "system.text.encodings.web 9.0.1",
+    "sourcePackage": "system.text.encodings.web/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "11_THIRD-PARTY-NOTICES.TXT",
+    "component": "system.text.encodings.web 9.0.1",
+    "sourcePackage": "system.text.encodings.web/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+  },
+  {
+    "file": "12_LICENSE.TXT",
+    "component": "system.text.json 9.0.1",
+    "sourcePackage": "system.text.json/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "13_THIRD-PARTY-NOTICES.TXT",
+    "component": "system.text.json 9.0.1",
+    "sourcePackage": "system.text.json/9.0.1",
+    "licence": "Original NuGet package licence / third-party notices",
+    "sha256": "40686c6447a7d5b5d3693068e4571b5f483d7ed335aeee773ef662440de4c5d5"
+  },
+  {
+    "file": "14_LICENSE.txt",
+    "component": "CPython 3.10.8",
+    "sourcePackage": "CPython Windows distribution",
+    "licence": "PSF and bundled third-party licences",
+    "sha256": "792fd2d8227bb8785d144c40359b38d752842754e458102ba436fd46252763f3"
+  },
+  {
+    "file": "15_license.terms",
+    "component": "Tcl/Tk 8.6.12",
+    "sourcePackage": "CPython Tcl/Tk distribution",
+    "licence": "Tcl/Tk licence.terms",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "file": "16_license.terms",
+    "component": "Tcl/Tk 8.6.12",
+    "sourcePackage": "CPython Tcl/Tk distribution",
+    "licence": "Tcl/Tk licence.terms",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "file": "17_License.txt",
+    "component": "nvidia_cublas_cu12-12.9.2.10",
+    "sourcePackage": "nvidia_cublas_cu12-12.9.2.10.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+  },
+  {
+    "file": "18_License.txt",
+    "component": "nvidia_cuda_nvrtc_cu12-12.9.86",
+    "sourcePackage": "nvidia_cuda_nvrtc_cu12-12.9.86.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+  },
+  {
+    "file": "19_License.txt",
+    "component": "nvidia_cuda_runtime_cu12-12.9.79",
+    "sourcePackage": "nvidia_cuda_runtime_cu12-12.9.79.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+  },
+  {
+    "file": "20_License.txt",
+    "component": "nvidia_cudnn_cu12-9.27.0.42",
+    "sourcePackage": "nvidia_cudnn_cu12-9.27.0.42.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "49cf79bdb35734b52fe6203013b3bd759f81e998cd32aa2c65c51db9a88c61d2"
+  },
+  {
+    "file": "21_License.txt",
+    "component": "nvidia_cufft_cu12-11.4.1.4",
+    "sourcePackage": "nvidia_cufft_cu12-11.4.1.4.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+  },
+  {
+    "file": "22_License.txt",
+    "component": "nvidia_curand_cu12-10.3.10.19",
+    "sourcePackage": "nvidia_curand_cu12-10.3.10.19.dist-info",
+    "licence": "NVIDIA proprietary package terms",
+    "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd"
+  },
+  {
+    "file": "23_LICENSE",
+    "component": "ONNX Runtime GPU 1.23.2",
+    "sourcePackage": "onnxruntime-gpu 1.23.2",
+    "licence": "MIT / bundled third-party notices",
+    "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+  },
+  {
+    "file": "24_ThirdPartyNotices.txt",
+    "component": "ONNX Runtime GPU 1.23.2",
+    "sourcePackage": "onnxruntime-gpu 1.23.2",
+    "licence": "MIT / bundled third-party notices",
+    "sha256": "e00f828e0a33de591a355ae6606d2625f5758da7d2c844db7821c9dd3e3647b6"
+  }
+]

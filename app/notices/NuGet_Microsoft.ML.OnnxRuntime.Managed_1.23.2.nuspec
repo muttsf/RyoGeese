@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.OnnxRuntime.Managed</id>
+    <version>1.23.2</version>
+    <authors>Microsoft</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ORT_icon_for_light_bg.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/Microsoft/onnxruntime</projectUrl>
+    <description>This package contains ONNX Runtime for .Net platforms</description>
+    <releaseNotes>Release Def:
+        Branch: refs/heads/rel-1.23.2
+        Commit: a83fc4d58cb48eb68890dd689f94f28288cf2278
+        Build: https://aiinfra.visualstudio.com/Lotus/_build/results?buildId=974988</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ONNX ONNX Runtime Machine Learning</tags>
+    <repository type="git" url="https://github.com/microsoft/onnxruntime" commit="a83fc4d58cb48eb68890dd689f94f28288cf2278" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Tensors" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-android34.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Tensors" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-ios17.2">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Tensors" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-maccatalyst17.2">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Tensors" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

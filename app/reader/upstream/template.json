@@ -1,0 +1,1222 @@
+{
+  "schemaVersion": "dash-layout-handoff/2",
+  "semanticsVersion": "dash-visible-facts/2",
+  "templateID": "priest.shadow.voidweaver.single.01",
+  "templateRevision": 1,
+  "binding": {
+    "classID": 5,
+    "specID": 258,
+    "layout": "L15",
+    "geometrySHA256": "d6cdddf2998d22f3d05bd32324a37a8bd41a4602aa087fceb049f0c087d1ed0a"
+  },
+  "addonVersion": "1.38-S1",
+  "status": "SOURCE_GEOMETRY_CHECKED_RUNTIME_CROPS_PENDING",
+  "sourceAddonPins": [
+    {
+      "path": "omitted-local-provenance",
+      "MD5": "dc5e52d75d9ff252bb10f087005e6c98",
+      "SHA256": "a4e7f86a7a7379a5116ccc0ad9c92619838653249ad5c1afca66ddd3bca14768"
+    },
+    {
+      "path": "omitted-local-provenance",
+      "MD5": "91a8ab63585525b228ce722517ee8d2c",
+      "SHA256": "e63cd91d2ffbb3cf430875cf40579d2526432c456817d65b1c3b822af70a312e"
+    }
+  ],
+  "priorLayoutPin": {
+    "path": "omitted-local-provenance",
+    "MD5": "467e1133b5020c085e637c6a6c9bc2b7",
+    "SHA256": "01e3ab10336c7936dd78fe9c70e8f76f639d05f3ef5e8f7ad450b3842cb29d3e"
+  },
+  "coordinateSystem": {
+    "origin": "bottom-left",
+    "units": "logical WoW UI units",
+    "height": 306,
+    "pixelTransform": "x=left+s*x; y=top+s*(306-y-h); round outer edges consistently",
+    "s": "calibrated pixels per logical unit; includes WoW UI scale/window scale/capture mapping"
+  },
+  "variants": {
+    "D_VISIBLE": {
+      "width": 578,
+      "height": 306,
+      "geometry": {
+        "A1": [
+          8,
+          246,
+          134,
+          40
+        ],
+        "B1": [
+          150,
+          246,
+          134,
+          40
+        ],
+        "B2": [
+          150,
+          208,
+          134,
+          34
+        ],
+        "C1label": [
+          292,
+          246,
+          48,
+          40
+        ],
+        "C1value": [
+          344,
+          246,
+          40,
+          40
+        ],
+        "C1locator": [
+          388,
+          246,
+          40,
+          40
+        ],
+        "C2label": [
+          292,
+          208,
+          48,
+          34
+        ],
+        "C2current": [
+          344,
+          208,
+          40,
+          34
+        ],
+        "C2max": [
+          388,
+          208,
+          40,
+          34
+        ],
+        "TL": [
+          4,
+          288,
+          16,
+          16
+        ],
+        "BR": [
+          558,
+          2,
+          16,
+          16
+        ],
+        "ABline": [
+          145,
+          18,
+          2,
+          268
+        ],
+        "BCline": [
+          287,
+          18,
+          2,
+          268
+        ],
+        "A2": [
+          8,
+          208,
+          134,
+          34
+        ],
+        "B3": [
+          150,
+          170,
+          134,
+          34
+        ],
+        "D1": [
+          436,
+          246,
+          134,
+          40
+        ],
+        "CDline": [
+          431,
+          18,
+          2,
+          268
+        ],
+        "A3": [
+          8,
+          170,
+          134,
+          34
+        ],
+        "A4": [
+          8,
+          132,
+          134,
+          34
+        ],
+        "A5": [
+          8,
+          94,
+          134,
+          34
+        ],
+        "A6": [
+          8,
+          56,
+          134,
+          34
+        ],
+        "A7": [
+          8,
+          18,
+          134,
+          34
+        ],
+        "D2": [
+          436,
+          208,
+          134,
+          34
+        ],
+        "D3": [
+          436,
+          170,
+          134,
+          34
+        ]
+      },
+      "applicability": "当前暗牧配置"
+    },
+    "D_HIDDEN": {
+      "width": 436,
+      "height": 306,
+      "geometry": {
+        "A1": [
+          8,
+          246,
+          134,
+          40
+        ],
+        "B1": [
+          150,
+          246,
+          134,
+          40
+        ],
+        "B2": [
+          150,
+          208,
+          134,
+          34
+        ],
+        "C1label": [
+          292,
+          246,
+          48,
+          40
+        ],
+        "C1value": [
+          344,
+          246,
+          40,
+          40
+        ],
+        "C1locator": [
+          388,
+          246,
+          40,
+          40
+        ],
+        "C2label": [
+          292,
+          208,
+          48,
+          34
+        ],
+        "C2current": [
+          344,
+          208,
+          40,
+          34
+        ],
+        "C2max": [
+          388,
+          208,
+          40,
+          34
+        ],
+        "TL": [
+          4,
+          288,
+          16,
+          16
+        ],
+        "BR": [
+          416,
+          2,
+          16,
+          16
+        ],
+        "ABline": [
+          145,
+          18,
+          2,
+          268
+        ],
+        "BCline": [
+          287,
+          18,
+          2,
+          268
+        ],
+        "A2": [
+          8,
+          208,
+          134,
+          34
+        ],
+        "B3": [
+          150,
+          170,
+          134,
+          34
+        ],
+        "A3": [
+          8,
+          170,
+          134,
+          34
+        ],
+        "A4": [
+          8,
+          132,
+          134,
+          34
+        ],
+        "A5": [
+          8,
+          94,
+          134,
+          34
+        ],
+        "A6": [
+          8,
+          56,
+          134,
+          34
+        ],
+        "A7": [
+          8,
+          18,
+          134,
+          34
+        ]
+      },
+      "applicability": "当前插件专精/配置生命周期可出现；不是已实现的手动隐藏D选项，首版暗牧模板判profile_mismatch"
+    }
+  },
+  "rows": {
+    "A1": [
+      8,
+      246,
+      134,
+      40
+    ],
+    "A2": [
+      8,
+      208,
+      134,
+      34
+    ],
+    "A3": [
+      8,
+      170,
+      134,
+      34
+    ],
+    "A4": [
+      8,
+      132,
+      134,
+      34
+    ],
+    "A5": [
+      8,
+      94,
+      134,
+      34
+    ],
+    "A6": [
+      8,
+      56,
+      134,
+      34
+    ],
+    "A7": [
+      8,
+      18,
+      134,
+      34
+    ],
+    "B1": [
+      150,
+      246,
+      134,
+      40
+    ],
+    "B2": [
+      150,
+      208,
+      134,
+      34
+    ],
+    "B3": [
+      150,
+      170,
+      134,
+      34
+    ],
+    "C1": [
+      292,
+      246,
+      136,
+      40
+    ],
+    "C2": [
+      292,
+      208,
+      136,
+      34
+    ],
+    "D1": [
+      436,
+      246,
+      134,
+      40
+    ],
+    "D2": [
+      436,
+      208,
+      134,
+      34
+    ],
+    "D3": [
+      436,
+      170,
+      134,
+      34
+    ]
+  },
+  "cells": {
+    "B1_icon": [
+      154,
+      251,
+      30,
+      30
+    ],
+    "B1_value": [
+      240,
+      248,
+      42,
+      36
+    ],
+    "B2_icon": [
+      154,
+      210,
+      30,
+      30
+    ],
+    "B2_value": [
+      240,
+      210,
+      42,
+      30
+    ],
+    "B3_icon": [
+      154,
+      172,
+      30,
+      30
+    ],
+    "B3_value": [
+      240,
+      172,
+      42,
+      30
+    ],
+    "D1_icon": [
+      440,
+      251.0,
+      30,
+      30
+    ],
+    "D1_value": [
+      526,
+      248.0,
+      42,
+      36
+    ],
+    "A3_icon": [
+      12,
+      172,
+      30,
+      30
+    ],
+    "A3_value": [
+      98,
+      172,
+      42,
+      30
+    ],
+    "A4_icon": [
+      12,
+      134,
+      30,
+      30
+    ],
+    "A4_value": [
+      98,
+      134,
+      42,
+      30
+    ],
+    "A5_icon": [
+      12,
+      96,
+      30,
+      30
+    ],
+    "A5_value": [
+      98,
+      96,
+      42,
+      30
+    ],
+    "A6_icon": [
+      12,
+      58,
+      30,
+      30
+    ],
+    "A6_value": [
+      98,
+      58,
+      42,
+      30
+    ],
+    "A7_icon": [
+      12,
+      23,
+      24,
+      24
+    ],
+    "A7_value": [
+      104,
+      20,
+      36,
+      30
+    ],
+    "A7_count": [
+      78,
+      20,
+      24,
+      30
+    ],
+    "D2_icon": [
+      440,
+      210.0,
+      30,
+      30
+    ],
+    "D2_value": [
+      526,
+      210.0,
+      42,
+      30
+    ],
+    "D3_icon": [
+      440,
+      172.0,
+      30,
+      30
+    ],
+    "D3_value": [
+      526,
+      172.0,
+      42,
+      30
+    ],
+    "A1_icon": [
+      12,
+      251,
+      30,
+      30
+    ],
+    "A1_value": [
+      98,
+      248,
+      42,
+      36
+    ],
+    "A2_icon": [
+      12,
+      213,
+      24,
+      24
+    ],
+    "A2_chg": [
+      78,
+      210,
+      24,
+      30
+    ],
+    "A2_rch": [
+      104,
+      210,
+      36,
+      30
+    ],
+    "C1label": [
+      292,
+      246,
+      48,
+      40
+    ],
+    "C1value": [
+      344,
+      246,
+      40,
+      40
+    ],
+    "C1locator": [
+      388,
+      246,
+      40,
+      40
+    ],
+    "C2label": [
+      292,
+      208,
+      48,
+      34
+    ],
+    "C2current": [
+      344,
+      208,
+      40,
+      34
+    ],
+    "C2max": [
+      388,
+      208,
+      40,
+      34
+    ]
+  },
+  "nameSearchRegions": {
+    "A1": {
+      "searchRect": [
+        46,
+        247,
+        48,
+        38
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A2": {
+      "searchRect": [
+        40,
+        209,
+        36,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A3": {
+      "searchRect": [
+        46,
+        171,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A4": {
+      "searchRect": [
+        46,
+        133,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A5": {
+      "searchRect": [
+        46,
+        95,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A6": {
+      "searchRect": [
+        46,
+        57,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "A7": {
+      "searchRect": [
+        40,
+        19,
+        36,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "B1": {
+      "searchRect": [
+        188,
+        247,
+        48,
+        38
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "B2": {
+      "searchRect": [
+        188,
+        209,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "B3": {
+      "searchRect": [
+        188,
+        171,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "D1": {
+      "searchRect": [
+        474,
+        247,
+        48,
+        38
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "D2": {
+      "searchRect": [
+        474,
+        209,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    },
+    "D3": {
+      "searchRect": [
+        474,
+        171,
+        48,
+        32
+      ],
+      "runtimeGlyphBoundsVerified": false,
+      "use": "校准/核对与空槽联合判断，不以截断中文重新猜技能身份；搜索框可能含该行角标"
+    }
+  },
+  "healthSearchRegions": {
+    "A2": {
+      "anchor": [
+        40,
+        210
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        38,
+        209,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "A3": {
+      "anchor": [
+        46,
+        172
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        44,
+        171,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "A4": {
+      "anchor": [
+        46,
+        134
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        44,
+        133,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "A5": {
+      "anchor": [
+        46,
+        96
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        44,
+        95,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "A6": {
+      "anchor": [
+        46,
+        58
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        44,
+        57,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "A7": {
+      "anchor": [
+        46,
+        20
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        44,
+        19,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "B1": {
+      "anchor": [
+        188,
+        248
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 8,
+      "searchRect": [
+        186,
+        247,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "B2": {
+      "anchor": [
+        188,
+        210
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 8,
+      "searchRect": [
+        186,
+        209,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "B3": {
+      "anchor": [
+        188,
+        172
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 8,
+      "searchRect": [
+        186,
+        171,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "D1": {
+      "anchor": [
+        474,
+        248
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        472,
+        247,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "D2": {
+      "anchor": [
+        474,
+        210
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        472,
+        209,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    },
+    "D3": {
+      "anchor": [
+        474,
+        172
+      ],
+      "point": "BOTTOMLEFT",
+      "fontLogicalSize": 7,
+      "searchRect": [
+        472,
+        171,
+        14,
+        13
+      ],
+      "geometryStatus": "SOURCE_ANCHOR_WITH_PROVISIONAL_SEARCH_RECT",
+      "runtimeGlyphBoundsVerified": false
+    }
+  },
+  "A1_C_health": "没有独立角标；读取可见?、数值、NA等本行输出与全局画面有效性，勿裁出不存在的角标",
+  "anchors": {
+    "TL": {
+      "rect": [
+        4,
+        288,
+        16,
+        16
+      ],
+      "pattern": "SQUARE"
+    },
+    "BR_VISIBLE": {
+      "rect": [
+        558,
+        2,
+        16,
+        16
+      ],
+      "pattern": "BARS"
+    },
+    "BR_HIDDEN": {
+      "rect": [
+        416,
+        2,
+        16,
+        16
+      ],
+      "pattern": "BARS"
+    },
+    "C1_L": {
+      "rect": [
+        400,
+        258,
+        16,
+        16
+      ],
+      "pattern": "L"
+    }
+  },
+  "patternRectsTopLeft": {
+    "SQUARE": [
+      [
+        4,
+        4,
+        8,
+        8
+      ]
+    ],
+    "L": [
+      [
+        3,
+        3,
+        3,
+        10
+      ],
+      [
+        3,
+        10,
+        10,
+        3
+      ]
+    ],
+    "BARS": [
+      [
+        3,
+        3,
+        10,
+        3
+      ],
+      [
+        3,
+        9,
+        10,
+        3
+      ]
+    ]
+  },
+  "captionCells": {
+    "A2_chg": "CHG",
+    "A2_rch": "RCH",
+    "A7_count": "USE",
+    "A7_value": "RDY"
+  },
+  "captionCropPolicy": "先保留完整子格；数值在中心上移4、底部标签6号。数字与标签分层裁图须用新CAL校准并记录，不能把CHG/RCH/USE/RDY喂为数值。",
+  "fields": {
+    "A1.display": {
+      "cell": "A1_value",
+      "scope": "player",
+      "kind": "own_cooldown_display",
+      "readyToken": "OK"
+    },
+    "A3.display": {
+      "cell": "A3_value",
+      "scope": "player",
+      "kind": "own_cooldown_display",
+      "readyToken": "OK"
+    },
+    "A4.display": {
+      "cell": "A4_value",
+      "scope": "player",
+      "kind": "own_cooldown_display",
+      "readyToken": "OK"
+    },
+    "A5.display": {
+      "cell": "A5_value",
+      "scope": "player",
+      "kind": "own_cooldown_display",
+      "readyToken": "OK"
+    },
+    "A6.display": {
+      "cell": "A6_value",
+      "scope": "player",
+      "kind": "own_cooldown_display",
+      "readyToken": "OK"
+    },
+    "A2.charges": {
+      "cell": "A2_chg",
+      "scope": "player",
+      "kind": "current_charges"
+    },
+    "A2.recharge_display": {
+      "cell": "A2_rch",
+      "scope": "player",
+      "kind": "next_charge_recharge_display"
+    },
+    "A7.uses": {
+      "cell": "A7_count",
+      "scope": "player",
+      "kind": "native_cast_count",
+      "accepted": true
+    },
+    "A7.ready": {
+      "cell": "A7_value",
+      "scope": "player",
+      "kind": "declared_replacement_state"
+    },
+    "C1.hp_percent": {
+      "cell": "C1value",
+      "scope": "target",
+      "kind": "displayed_percent",
+      "zeroIsDeathProof": false
+    },
+    "C1.target_context": {
+      "cell": "C1value",
+      "scope": "target",
+      "tokens": {
+        "NT": "no_target",
+        "?": "unknown"
+      }
+    },
+    "C2.current": {
+      "cell": "C2current",
+      "scope": "player",
+      "kind": "insanity_points"
+    },
+    "C2.maximum": {
+      "cell": "C2max",
+      "scope": "player",
+      "kind": "dynamic_max_points"
+    },
+    "B1.presence": {
+      "iconCell": "B1_icon",
+      "nameRegion": "B1",
+      "healthRegion": "B1",
+      "scope": "target",
+      "kind": "bool",
+      "spellID": 589,
+      "filter": "HARMFUL|PLAYER",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "B1.seconds": {
+      "cell": "B1_value",
+      "scope": "target",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Down"
+    },
+    "B2.presence": {
+      "iconCell": "B2_icon",
+      "nameRegion": "B2",
+      "healthRegion": "B2",
+      "scope": "target",
+      "kind": "bool",
+      "spellID": 34914,
+      "filter": "HARMFUL|PLAYER",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "B2.seconds": {
+      "cell": "B2_value",
+      "scope": "target",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Down"
+    },
+    "B3.presence": {
+      "iconCell": "B3_icon",
+      "nameRegion": "B3",
+      "healthRegion": "B3",
+      "scope": "target",
+      "kind": "bool",
+      "spellID": 335467,
+      "filter": "HARMFUL|PLAYER",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "B3.seconds": {
+      "cell": "B3_value",
+      "scope": "target",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Down"
+    },
+    "D1.presence": {
+      "iconCell": "D1_icon",
+      "nameRegion": "D1",
+      "healthRegion": "D1",
+      "scope": "player",
+      "kind": "bool",
+      "spellID": 450193,
+      "filter": "HELPFUL",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "D1.seconds": {
+      "cell": "D1_value",
+      "scope": "player",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Up"
+    },
+    "D2.presence": {
+      "iconCell": "D2_icon",
+      "nameRegion": "D2",
+      "healthRegion": "D2",
+      "scope": "player",
+      "kind": "bool",
+      "spellID": 194249,
+      "filter": "HELPFUL",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "D2.seconds": {
+      "cell": "D2_value",
+      "scope": "player",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Up"
+    },
+    "D3.presence": {
+      "iconCell": "D3_icon",
+      "nameRegion": "D3",
+      "healthRegion": "D3",
+      "scope": "player",
+      "kind": "bool",
+      "spellID": 10060,
+      "filter": "HELPFUL",
+      "normalBlank": false,
+      "contentWithUnreadableSeconds": true
+    },
+    "D3.seconds": {
+      "cell": "D3_value",
+      "scope": "player",
+      "kind": "visible_seconds",
+      "absenceMeaning": "not_applicable; no fabricated 0",
+      "rounding": "Up"
+    }
+  },
+  "runtimePixelValidation": "NOT_PERFORMED",
+  "OCRAccuracy": "NOT_MEASURED",
+  "targetIdentity": "没有目标名/GUID/切目标序号画面字段；时间戳仅表示帧时效，不证明目标身份",
+  "normalBlank": "完整有效B/D槽无实际光环内容且无对应故障=known presence false；OCR空返回不自动等于空槽",
+  "acceptance": {
+    "A7": "USER_BASIC_ACCEPTED_20261005_V137_UNCHANGED_V138",
+    "D2_D3": "USER_BASIC_ACCEPTED_20261006_V138",
+    "reader": "NOT_IMPLEMENTED"
+  },
+  "semanticDocument": "07-状态与字段语义_v2_20261006.md",
+  "history": "旧JSON和旧协议保持原指纹，含历史EMPTY_UNCONFIRMED/待验文字；新语义与支持状态只写入本v2文件，布局号仍L15"
+}

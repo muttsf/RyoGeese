@@ -1,0 +1,7 @@
+{
+  "intervalMs": 500,
+  "seconds": 0,
+  "startupTimeoutSeconds": 120,
+  "progressTimeoutSeconds": 10,
+  "stopGraceSeconds": 8
+}

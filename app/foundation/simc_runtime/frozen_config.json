@@ -1,0 +1,166 @@
+{
+  "schema": "shadow_priest_plugin_only_skill_model_v016",
+  "commit": "3dcabb94dd32f786786c67541dfd10db9f39e43b",
+  "build": "12.1.5.70391",
+  "hero": "voidweaver",
+  "targets": 1,
+  "mode": "PRACTICAL_ESTIMATE_WITH_PROVENANCE",
+  "external_input": "only existing plugin slot values/presence and timestamp history",
+  "forbidden_inputs": [
+    "native runtime getters",
+    "current GCD",
+    "casting status",
+    "channel status",
+    "new visual/plugin fields"
+  ],
+  "constants": {
+    "insanity_base_max": 100,
+    "madness_ordinary_cost": 55,
+    "madness_free_proc_cost": 0,
+    "mind_devourer_selected": false,
+    "mind_flay_insanity_enabled": false,
+    "shared_MB_VB_base_recharge_s": 9.0,
+    "shared_MB_VB_normal_max_charges": 1,
+    "shared_MB_VB_hasted": true,
+    "death_base_recharge_s": 10.0,
+    "death_normal_max_charges": 1,
+    "death_hasted_from_direct_fixed_mods": false,
+    "void_torrent_base_cd_s": 30.0,
+    "void_torrent_hasted_from_direct_fixed_mods": false,
+    "power_infusion_base_cd_s": 120.0,
+    "voidform_base_cd_s": 120.0,
+    "tentacle_base_recharge_s": 15.0,
+    "tentacle_mid2_2pc_base_recharge_s": 12.0,
+    "tentacle_max_charges": 2,
+    "tentacle_hasted_from_direct_fixed_mods": false,
+    "rift_tracking_base_duration_s": 8.0,
+    "rift_extension_per_void_blast_s": 1.0,
+    "rift_max_darkening_horizon_extensions": 3,
+    "void_volley_raw_max_stacks": 10,
+    "crushing_void_raw_max_stacks": 4,
+    "mid2_4pc_volley_proc_probability": 1.0,
+    "power_infusion_haste_fraction": 0.2,
+    "power_infusion_haste_multiplier": 1.2
+  },
+  "formulas": {
+    "H": "estimated spell_haste time multiplier; H=1/(1+estimated_haste_fraction), derived/updated from plugin timestamp history; default prior is an explicit model assumption",
+    "MB_VB_recharge_s": "9*H unless observed A1 countdown/history supplies a better value; both actions use same observed readiness",
+    "TS_recharge_s_source": "(12 if MID2_2pc else 15)*(H if tentacle_hasted_from_direct_fixed_mods else 1)*other_known_recharge_multipliers",
+    "TS_recharge_s_optional_estimate": "12*H is selectable only as an explicit empirical estimate if haste classification/multipliers are not established; never label it observed",
+    "usable_TS": "A2_CHG>=1; unavailable if complete fresh A2_CHG==0; unknown if missing/conflicting",
+    "TS_full_recharge_s": "0 if charges==2; remaining_next_recharge if charges==1; remaining_next_recharge+estimated_TS_recharge_s if charges==0",
+    "VV_supply": "crushing_void>0 OR void_volley>0; practical displayed surrogate is fresh A7 confirmed replacement with positive count",
+    "ordinary_VV_cast_consumption": "crushing_void=max(0,crushing_void-1);void_volley=max(0,void_volley-1); do not use sum as guaranteed executable count",
+    "form_special_qualification": "not model_voidform_active AND not model_VV_supply",
+    "MB_VB_mode_practical": "VB if chosen void_blast and model_rift_active; otherwise MB. model_rift_active uses D1 proxy plus plugin-derived history as estimated bridge",
+    "MB_VB_mode_exact_source": "rift_tracking_up OR internal_channel_is_VTorrent activates VB and excludes MB; do not observe internal_channel_is_VTorrent, model ordinary rift implication instead",
+    "ordinary_Madness_cost": "55; free-proc branch disabled for current pinned no-Mind-Devourer configuration",
+    "MFI_candidate": "disabled for current Voidweaver profile; ordinary Mind Flay remains filler",
+    "PI_haste_time_multiplier": "H_without_PI/1.20 when fresh D3 confirms PI; do not apply twice if observed A1-based H already includes PI"
+  },
+  "skill_models": {
+    "mind_blast": {
+      "spell_id": 8092,
+      "cooldown_group": "MB_VB",
+      "plugin_source": "A1",
+      "ordinary_formula": "9*H",
+      "override_mode": "see MB_VB_mode_practical",
+      "priority_source": "fixed APL, not this configuration"
+    },
+    "void_blast": {
+      "spell_id": 450405,
+      "cooldown_group": "MB_VB",
+      "plugin_source": "A1",
+      "shared_with": "mind_blast",
+      "qualification": "chosen talent + modeled rift proxy",
+      "native_extra_channel_disjunct": "not an external input"
+    },
+    "tentacle_slam": {
+      "spell_id": 1227280,
+      "plugin_sources": [
+        "A2_CHG",
+        "A2_RCH"
+      ],
+      "charges": 2,
+      "mid2_2pc_base_recharge_s": 12,
+      "observed_countdown_priority": true
+    },
+    "void_torrent": {
+      "spell_id": 263165,
+      "plugin_source": "A3",
+      "base_cd_s": 30
+    },
+    "shadow_word_death": {
+      "spell_id": 32379,
+      "plugin_source": "A4",
+      "base_recharge_s": 10,
+      "normal_charges": 1
+    },
+    "power_infusion": {
+      "spell_id": 10060,
+      "plugin_source": "A5",
+      "base_cd_s": 120
+    },
+    "voidform": {
+      "spell_id": 228260,
+      "plugin_sources": [
+        "A6",
+        "D2",
+        "A7"
+      ],
+      "base_cd_s": 120,
+      "ordinary_special_gate": "form_special_qualification"
+    },
+    "void_volley": {
+      "spell_id": 1242173,
+      "plugin_source": "A7",
+      "cooldown_model": "not an autonomous recharge-charge model",
+      "supply_surrogate": "fresh confirmed replacement+count; hidden two-buff composition remains estimated"
+    },
+    "shadow_word_madness": {
+      "spell_id": 335467,
+      "plugin_source": "C2_CURRENT",
+      "ordinary_cost": 55
+    },
+    "mind_flay_insanity": {
+      "enabled": false,
+      "reason": "current Voidweaver, no Archon Resonant Energy/MFI supply model"
+    }
+  },
+  "assumption_registry": {
+    "D1_RIFT_PROXY": {
+      "status": "ESTIMATED_PROXY_NOT_OBSERVED_EQUIVALENCE",
+      "plugin_aura_id": 450193,
+      "SimC_tracking_id": 459314,
+      "default_policy": "fresh D1 positive presence models active rift; absence models inactive unless same plugin history predicts ordinary rift grace; annotate estimated",
+      "do_not_certify": "game aura/SimC driver exact synchronization"
+    },
+    "A7_SUPPLY_PROXY": {
+      "status": "ESTIMATED_PROXY_NOT_OBSERVED_EQUIVALENCE",
+      "count_api_mapping": "fixed 332/408 source bridge exists; actual game aggregation unverified",
+      "default_policy": "use supply boolean from complete fresh replacement/count; do not backsolve both buff stacks"
+    },
+    "TS_HASTE": {
+      "status": "SOURCE_CLASSIFICATION_WITH_OPTIONAL_EMPIRICAL_ESTIMATE",
+      "ordinary_direct_scan_hasted": false,
+      "optional_12H_model": "explicit estimator policy, superseded by consistent A2 recharge histories"
+    },
+    "MB_PROC_CHARGES": {
+      "status": "HIDDEN_SOURCE_BOUNDARY",
+      "source": "Shadowy Insight can add MB supply and consumes its proc layer instead of normal cooldown update",
+      "default_policy": "trust fresh A1 readiness/countdown; do not infer every proc or count from base max1"
+    },
+    "ESTIMATED_CAST_EVENTS": {
+      "status": "INFERRED_FROM_PLUGIN_HISTORY_ONLY",
+      "policy": "CD restart/charge decrement/DOT or BUFF appearance may update hidden history model with confidence; recommendation emission itself is not proof player executed it"
+    }
+  },
+  "fresh_unknown_policy": {
+    "missing_or_stale_or_conflicting_slot": "UNKNOWN observed; estimator may choose labeled hypothesis and retain confidence/risk",
+    "no_invented_plugin_field": true,
+    "no_native_oracle_as_feature": true
+  },
+  "engine_runs": 0,
+  "builds": 0,
+  "preferred_config_supersedes": "model_config.json adds fixed PI20 percent source constant only"
+}

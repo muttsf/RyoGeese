@@ -1,0 +1,15 @@
+Additional permission under GNU GPL version 3 section 7:
+
+The copyright holders of the original, owned RyoGeese GPU reader source grant
+permission to link that reader source, or modified versions of it, with the
+NVIDIA CUDA and cuDNN runtime libraries, the Microsoft Windows SDK .NET
+projection runtime (Microsoft.Windows.SDK.NET.dll and WinRT.Runtime.dll), and
+the Microsoft .NET runtime distributed under the Microsoft .NET Library terms,
+and to convey the resulting reader executables together with those libraries,
+subject to the respective NVIDIA and Microsoft terms applicable to them.
+
+This permission does not relicense the NVIDIA or Microsoft libraries or any
+third-party source, does not extend to SimulationCraft code, SimulationCraft-
+derived code, or any other third-party component, and does not remove the
+requirement to provide the Corresponding Source of the covered RyoGeese reader
+code. Modified versions may retain or remove this permission.

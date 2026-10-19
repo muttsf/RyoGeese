@@ -1,0 +1,78 @@
+Portable build workflow — RyoGeese 0.1.0-beta.4
+
+The app/ directory contains Python source, frozen configuration/reference data,
+the OCR model, visual supervision, and the shipped CUDA source/PTX. native/
+contains the corresponding C# reader source and NuGet lock. Runtime dependency
+binaries are outside Git and listed by exact SHA256 in DEPENDENCIES.json.
+Keep .gitattributes: source bytes must not be normalized by core.autocrlf, because
+the shipped CUDA source stamp and source locks refer to their exact bytes.
+Project-owned code is GPL-3.0-only. See LICENSE and LICENSING.md for scope and
+the owned reader additional permission. Third-party terms are unchanged.
+
+1. Prepare dependencies
+Provide a clean directory containing the exact runtime/ and reader/bin/ files
+listed in DEPENDENCIES.json. An unchanged earlier RyoGeese installation can supply
+these dependencies. The builder does not copy its user configuration or logs.
+No automatic upstream downloader is implemented. Arbitrary newer packages will
+be rejected by the hash checks and need a separate reviewed dependency update.
+Versions: CPython 3.10.8/Tcl-Tk 8.6.12; .NET runtime 8.0.32; ONNX Runtime 1.23.2;
+NVIDIA cublas-cu12 12.9.2.10, cuda-nvrtc-cu12 12.9.86, cuda-runtime-cu12 12.9.79,
+cufft-cu12 11.4.1.4, curand-cu12 10.3.10.19 and cudnn-cu12 9.27.0.42.
+Vendor notices and original NuGet metadata are under app/notices/.
+
+2. Build the small windowed launcher, from repository root
+python -B installer/build_launcher.py --compiler <Windows-Framework64-v4.0.30319-csc.exe> --output app/点我启动.exe
+This uses the Windows .NET Framework compiler and the project icon. The output
+must not exist. Launcher.cs is the corresponding GPL-3.0-only source. The launcher
+uses the adjacent bundled Python without a console or a script-selection step.
+Assembly/file/informational versions are generated from app/release.json at build
+time; no separate version literal is maintained in Launcher.cs.
+
+3. Assemble a NEW payload directory, from repository root
+python -B installer/prepare_payload.py --dependency-root <clean-dependencies> --output <new-payload>
+The output must not exist. All dependencies are verified before output creation.
+Before assembly and before installer compilation, publish_guard.py rejects saved
+SIMC records, bindings, sessions/logs, raw exports and nonempty sourceText JSON.
+This check never deletes the publisher's AppData or other local player settings.
+The builder regenerates foundation, runtime, source and payload locks. It does
+not start capture or load a GPU model. This is an offline assembler, not proof
+of an automated build from a clean clone without any supplied dependencies.
+
+4. Compile with an explicitly supplied NSIS 3.13 compiler
+python -B installer/build_installer.py --payload <new-payload> --output <new-build> --makensis <makensis.exe>
+The builder verifies the actual payload, generates install/uninstall whitelists,
+and compiles the installer without running it. Check its build log and checksum.
+The PNG guide and third-party binary terms are installed. User images, internet
+sound clips, user SIMC/key settings and the game addon are not included.
+
+5. Rebuild the independent reader when modifying native source
+Use a .NET 8 SDK, target net8.0-windows10.0.22621.0/x64, and keep packages.lock.json.
+In a separate source copy, from native/:
+dotnet restore GpuDash.csproj --locked-mode -p:WindowsSdkPackageVersion=10.0.22621.56
+dotnet build GpuDash.csproj -c Release --no-restore -p:DebugType=None -p:DebugSymbols=false -p:Deterministic=true -p:ContinuousIntegrationBuild=true
+For publication map the build root with -p:PathMap=<source-root>=/_/ryogeese.
+Use DLLs, GpuDash.deps.json and GpuDash.runtimeconfig.json from the Release output;
+do not ship PDBs. New binary bytes require a new reviewed dependency manifest.
+The current dependency lock intentionally rejects unreviewed rebuilt binaries.
+Bit-identical reproduction across different SDK/compiler versions is not promised.
+
+6. CUDA kernel
+The source is native/dash.cu, also shipped at app/reader/gpu/dash.cu. Its accepted
+NVRTC options are --gpu-architecture=compute_86 --std=c++14 --fmad=false and the
+program source name dash.cu. app/reader/gpu/dash.ptx is the accepted compiled file.
+A different CUDA compiler produces a new artifact needing verification; successful
+compilation alone does not prove matching OCR output or GPU execution.
+
+7. Installer validation
+Test fresh install, owned upgrade/old-media cleanup, invalid markers, reparse
+directories and preservation of unknown files and user settings in an isolated
+namespace. NSIS /D and _?= must be the final UNQUOTED command-line items even
+when the destination contains spaces. Before running any tiny fixture, override
+its fallback InstallDir, uninstall registry key, menu path and desktop link.
+The fixture must never inherit the real product's InstallDirRegKey or fallback.
+
+8. Release
+The single user version and GitHub URL come from app/release.json. Publish actual
+source and installer together only after licensing, privacy and functional review.
+Publish the exact tagged corresponding source alongside the installer. The project
+licence does not relicense third-party components. Check app/SOURCE.txt.

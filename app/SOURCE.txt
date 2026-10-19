@@ -1,0 +1,16 @@
+RyoGeese 0.1.0-beta.4 — Corresponding Source
+
+Copyright (C) 2026 手电加鞭. Project-owned code: GPL-3.0-only.
+The owned reader has the narrowly scoped additional permission documented in
+LICENSING.txt and notices/RyoGeese_Reader_Additional_Permission.txt.
+
+Project: https://github.com/muttsf/RyoGeese
+Release: https://github.com/muttsf/RyoGeese/releases/tag/v0.1.0-beta.4
+Exact source tag: https://github.com/muttsf/RyoGeese/tree/v0.1.0-beta.4
+
+The installer and its complete corresponding source must be made available from
+the same release. The source includes app/, native/, installer/, dependency pins
+and build instructions. Release publication is a separate maintainer step; a
+private build candidate does not mean these pages are already publicly reachable.
+Third-party source/licence references are recorded in THIRD_PARTY_NOTICES.txt
+and notices/. User SIMC, settings, imported pictures and logs are not release source.

@@ -1,0 +1,5 @@
+Current build instructions: BUILDING_PORTABLE.txt
+Accepted tools: BUILD_RECORD.txt
+Dependency pins: DEPENDENCIES.json
+Project licensing: LICENSE and LICENSING.md
+Automatic upstream dependency download is not implemented.

@@ -1,0 +1,52 @@
+Accepted build provenance (not a promise of bit-identical fresh-clone reproduction)
+
+Native reader: .NET SDK 8.0.426; target net8.0-windows10.0.22621.0/x64;
+locked NuGet dependencies, Windows SDK projection package 10.0.22621.56.
+The accepted native build log reports zero warnings and zero errors.
+CUDA: NVRTC 12.9; wheel nvidia-cuda-nvrtc-cu12 12.9.86.
+Options: --gpu-architecture=compute_86 --std=c++14 --fmad=false; program dash.cu.
+Installer: NSIS 3.13; beta.2 prior candidate build log contains zero warnings.
+Native/kernel accepted build date: 2026-10-18. Installer candidate: 2026-10-19.
+Current licence/document changes do not rebuild native or kernel binaries.
+The final installer gets its own build time, log and SHA256 when compiled.
+Compiler location is supplied explicitly; private machine paths are not required.
+See BUILDING_PORTABLE.txt. Automatic upstream dependency download is not implemented.
+
+Previous licensed installer candidate (before whole-pack icon/optional-key changes):
+RyoGeese-0.1.0-beta.2-x64-Setup.exe
+SHA256: 9641acc2c493859afb9bdc37e9015332683386c4a9cfc79a1758a0794f2f1acd
+Bytes: 1344428140
+Compiler: NSIS 3.13; compiler log: zero warnings.
+Built/log completed UTC: 2026-10-19T01:28:35.561432+00:00
+Fresh install, owned upgrade/legacy cleanup, and uninstall were tested in an isolated directory.
+No application GUI, GPU or game was started by those installer tests.
+
+2026-10-19 functional-test revision:
+One ZIP icon pack, optional bindings, and a small project-icon launcher were added.
+Launcher compiler: Windows .NET Framework csc, file version 14.8.10001.0,
+x64 compiler, AnyCPU output.
+Compilation uses UTF-8, optimized code, no debugging symbols, and the project ICO.
+No new NSIS installer was built for this revision. The preceding installer is
+historical and does not include these functional changes. Test the new directory
+before a final installer rebuild and final installation test.
+
+Final beta.3 installer candidate:
+RyoGeese-0.1.0-beta.3-x64-Setup.exe
+SHA256: 00a7044a8eaa7c2765e609badd50a35c2ffcb57cd1948e73604c9dfe9f1a31bb
+Bytes: 1344494912
+Compiler: NSIS 3.13; current build log has no warnings.
+Actual isolated full-package fresh install, owned upgrade and uninstall passed.
+The installed friendly EXE resolved its adjacent runtime with --check.
+No new application GUI/GPU/game run is claimed for these installation checks.
+Build attempt 1 was cancelled after a stale beta.2 source-tag declaration was found; only attempt 2 is eligible.
+
+Final beta.4 review-closure build:
+RyoGeese-0.1.0-beta.4-x64-Setup.exe
+SHA256: 9c404aa90a6904d58fafcdd16daa8c15625faac025b76d2d8a29d909f3c339ca
+Bytes: 1344495077
+Launcher versions generated from release.json; informational version preserved.
+ZIP reads capped before decoding; actual size and cumulative size checked.
+First recommendation, 500ms capture, OCR, native binaries and models unchanged.
+NSIS 3.13 build: no warnings; isolated fresh install, owned upgrade and uninstall passed.
+Installed launcher --check passed; no new application GUI/GPU/game test claimed.
+Authenticode: unsigned, explicitly disclosed; author approved unsigned first public beta.

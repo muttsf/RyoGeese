@@ -1,0 +1,123 @@
+{
+  "copies": [
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/base_offline_adapter.py",
+        "bytes": 13224,
+        "sha256": "ef03db1b06819d5eb7ef1553b8e940494cf43071917ff01a0d1fc71ba07d9436"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/configured_adapter.py",
+        "bytes": 7057,
+        "sha256": "1239da2e4d40dba063bfc3bad382782368a0580220239576aeb8d119a31c4ef1"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/controlled_core.py",
+        "bytes": 888,
+        "sha256": "70960e73f63036f33de411c9ccb636cfd46ea8d262191a3f4a705d0d500e91a8"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/current_profile.json",
+        "bytes": 499,
+        "sha256": "ddc798ca27cc0d00204d5d33919eac789d049f37f000bbc63266974d84f1db31"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/current_talents.json",
+        "bytes": 523,
+        "sha256": "c0737fb43d8c65e614a6b1574425aeee6d4a253adc4932f7c374cb4e974b56f0"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/display_fields.py",
+        "bytes": 3838,
+        "sha256": "ab26f5ea9816d081b525451afd8b7c65452ee4d68b74a8a251ad04d24c481120"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/frozen_config.json",
+        "bytes": 7565,
+        "sha256": "0ab692d06157c14efaa82e517ffbb0ee52711a69bcf19409bb6b1dbfce9572da"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/frozen_v1.py",
+        "bytes": 1312,
+        "sha256": "bbfccffb4ba5a3745f2485f28882f177780f03978ead22bc04fef9a76e64540d"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/item_set_index.json",
+        "bytes": 4771407,
+        "sha256": "fb09b9667e9029df841d27d02bacb3da488a9350ebd594f08ed3745741f99cae"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/profile_model.py",
+        "bytes": 3727,
+        "sha256": "3dc6d9512458b0616f4df5043ce3a351391a57b6d74e411649ef20180ffccceb"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/prompt_view.py",
+        "bytes": 2218,
+        "sha256": "bfc9a95fdc361048cf1175d04ae5cc4dfa35d27e7a2bae59f25fdbd0ec756602"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/simc_import.py",
+        "bytes": 14447,
+        "sha256": "e768c2c5001463fb102c589fb763b7fc76815cf61896a4a22b228fd029de065a"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/sources/trait_data.inc",
+        "bytes": 686182,
+        "sha256": "7b742e7def56b23733bb50fda7367bfbed083ff637714091b492310401b41e67"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/strict_talents.py",
+        "bytes": 5816,
+        "sha256": "b438e18d695bca83b49d51dfeca4b6a8c1c8f47f843ec49f2d2db4b9d50371b7"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/supported_source.json",
+        "bytes": 382,
+        "sha256": "e569a18f9cc7855d0308b9ac11e16604e4427d41259b1b9b09dc6ed9d5f70004"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/talent_core.py",
+        "bytes": 5939,
+        "sha256": "e710fa5c913f09f57bfad7335600357e54e99618f144dceff0c76dfbe1433ae7"
+      }
+    },
+    {
+      "copy": {
+        "path": "foundation/simc_runtime/talent_model.py",
+        "bytes": 5408,
+        "sha256": "b6377a136f1e51ef319a92a70cd477d1f7c8c6028be169c3b4f4300fa52291ba"
+      }
+    }
+  ]
+}

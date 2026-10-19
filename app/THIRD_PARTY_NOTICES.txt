@@ -1,0 +1,36 @@
+Third-party notices and licence scope — RyoGeese 0.1.0-beta.4
+
+Project-owned code is GPL-3.0-only; see LICENSE.txt and LICENSING.txt.
+No project licence changes the original terms of third-party components.
+SimulationCraft-derived code/data retain the GPLv3 terms and upstream attribution.
+Reference: https://github.com/simulationcraft/simc/tree/3dcabb94dd32f786786c67541dfd10db9f39e43b
+Local modifications: desktop-adapted priority evaluation, character import and
+supported-template data, including the documented product simplifications.
+No claim is made that upstream endorses these changes or that all SimC features are implemented.
+
+The OCR model is ch_PP-OCRv4_rec_mobile.onnx, distributed in RapidOCR 3.8.4 and
+declared by its official model list at ModelScope revision v3.8.0. SHA256:
+48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b
+Upstream conversion publisher: RapidAI/RapidOCR; base project PaddleOCR.
+Apache-2.0 notices: RapidOCR_3.8.4_LICENSE.txt and PaddleOCR_LICENSE.txt.
+No model bytes were changed. The model is not licensed under the project's GPL.
+
+Bundled CPython/Tcl/Tk and .NET retain their included licences and third-party notices.
+NuGet package versions, original package metadata, copyright and notice files are
+mapped in notices/PACKAGE_INDEX.json. Runtime binary hashes are in payload_manifest.json
+and visual_runtime/runtime_lock.json. Microsoft.Windows.SDK.NET.dll is covered by
+the Windows SDK terms and REDIST entry, not blanket MIT licensing for every SDK file.
+
+NVIDIA CUDA/cuDNN libraries remain proprietary NVIDIA components. Existing package
+licence files are retained. The cuDNN 9.27.0 redistribution manifest points to
+https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/LICENSE.txt,
+also included as NVIDIA_cuDNN_redist_LICENSE.txt. CUDA is privately deployed per
+application and not copied into shared system locations. No NVIDIA endorsement.
+The readout process loads these libraries; desktop decision code does not link them.
+The additional permission for the original owned reader is in
+notices/RyoGeese_Reader_Additional_Permission.txt. It excludes SimulationCraft
+and all third-party components; their original terms remain applicable.
+
+Game skill pictures and internet sound clips are absent. Optional user-imported
+PNG files are local user data and are not included in the package or source tree.
+The author states that the RyoGeese logo was generated using GPT.
