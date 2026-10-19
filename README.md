@@ -2,15 +2,33 @@
 
 # RyoGeese
 
-**魔兽世界视觉技能推荐软件，由手电加鞭制作，开源免费。**
+[English](#english)
 
-RyoGeese 识别游戏中 Dash 插件显示的信息，根据角色配置和内置循环，在独立小窗中提示当前推荐的技能与按键。技能由玩家自行操作，软件不自动施法。
+由手电加鞭制作的免费开源早期测试版。通过视觉识别读取独立Dash插件显示的信息，在本机给出技能推荐。本工具的初衷是代替魔兽世界本应好用的推荐技能，只可惜官方的推荐技能不好用，所以开发者希望代替官方的推荐技能，希望任何玩家都可以无痛使用更智能的一键宏输出。作者认为尤其适合在团本中使用，而且工具支持暂缓爆发功能，非常适合留爆发对于某阶段某对象使用。目前支持魔兽世界正式服12.1.5、暗牧以虚空编织者为主的纯单体循环，其他职业尚未实现，项目完成度提高后会尽快更新恶魔术等其他职业。
+
+当前版本提供技能与按键提示，实际施放由玩家操作。
 
 **[下载软件](https://github.com/muttsf/RyoGeese/releases) · [安装配套插件](https://github.com/muttsf/RyoGeese-Dash) · [反馈问题](https://github.com/muttsf/RyoGeese/issues)**
 
-当前已发布 **0.1.0-beta.4 测试版**，支持 **正式服 12.1.5 · 暗牧 · 虚空编织者 · BOSS 单体**。其他职业与未适配的天赋暂不支持。
+当前版本：**0.1.0-beta.4 测试版**。
 
 喜欢这个项目的话，欢迎点个 **Star**，也欢迎通过 Issues 和 PR 一起改进。
+
+## 循环来源与测试重点
+
+内置循环参考 [SimulationCraft（SIMC）](https://github.com/simulationcraft/simc) 的暗牧单体技能优先级与机制资料，再结合 Dash 能显示、软件能识别的信息，整理为本机运行的循环实现。当前实现包含简化与近似，不是在后台运行完整 SIMC 模拟器，也不宣称所有场景与 SIMC 完全等价。当前参考资料固定在 [SIMC 提交 `3dcabb9`](https://github.com/simulationcraft/simc/tree/3dcabb94dd32f786786c67541dfd10db9f39e43b)。
+
+导入你自己的 SIMC，是为了核对专精、天赋、装备和套装，并配置已支持的内置规则，不是导入一套新的循环。软件不绑定作者的角色、同一套装备或按键；循环由维护者更新、验证后，随软件版本发布。
+
+目前已支持虚空编织者的主要技能及多项常用天赋组合；其他英雄树和部分未适配分支仍不支持，具体以导入核对结果为准。**能够载入不代表每个天赋细节都已验证完善。**
+
+这是早期测试版，希望使用者重点测试和评估循环是否好用：
+
+- 自己的实际 SIMC 能否正确核对，载入的配置是否符合预期。
+- 技能顺序、DOT 维持、狂乱资源处理是否存在明显不合理的情况。
+- 团本中暂缓爆发、为指定阶段或目标留爆发时，推荐是否符合预期。
+
+反馈时请附天赋配置、发生时间和对应推荐日志，并删去不愿公开的个人信息。
 
 ## 下载与安装
 
@@ -43,7 +61,9 @@ SIMC 导出需要安装独立的 [SimulationCraft 游戏插件](https://github.c
 - **重新定位**：移动插件或调整面板大小、字号后，点击此按钮重新定位。
 - **退出**：关闭推荐小窗并结束本次推荐。
 
-软件按 **500 毫秒**安排一次取图，识别与推荐的实际耗时会受电脑负载影响。当前只显示第一推荐，没有下一招预测。
+本版功能：每500毫秒安排取图，识别串行处理，显示当前技能建议。后续会考虑提升至300毫秒左右的版本，减少玩家使用读条技能后的空转等待。
+
+实际取图间隔与处理耗时会受电脑负载影响。300毫秒属于后续优化计划，当前只显示第一推荐，没有下一招预测。
 
 ## 可选：导入技能图标
 
@@ -62,6 +82,10 @@ SIMC 导出需要安装独立的 [SimulationCraft 游戏插件](https://github.c
 | 其他 NVIDIA 显卡 | **RTX 30 系及以上为理论兼容目标**，没有逐型号实机验证。 |
 | AMD | AMD CPU 可以使用；**AMD 显卡暂不支持**。 |
 | 内存与运行环境 | **8GB 内存没有实机兼容保证**；显卡驱动及微软 Visual C++ x64 运行库需满足程序要求。 |
+
+**作者补充：**
+
+后续会想办法制作A卡的支持但是目前无法保证且没有A卡可以测试。个人第一次制作采用成熟的CUDA库工具，后续会想办法支持，并承诺蓝宝石7900XTX是世界上最美的显卡。
 
 ## 常见问题
 
@@ -100,3 +124,126 @@ SIMC 导出需要安装独立的 [SimulationCraft 游戏插件](https://github.c
 - `native/`：独立 GPU 读取器源码；外部运行依赖的校验清单见 `DEPENDENCIES.json`。
 
 自有源码采用 **GPL-3.0-only**；自有 GPU 读取器另有 NVIDIA／微软运行库附加许可。第三方组件保留各自许可，详见 [LICENSE](LICENSE)、[许可范围](LICENSING.md) 和 [第三方声明](app/notices/)。
+
+---
+
+## English
+
+[返回中文 / Back to Chinese](#ryogeese)
+
+A free, open-source early test release created by **手电加鞭**. It uses visual recognition to read information displayed by the separate Dash addon and provides ability recommendations locally on your computer. The project aims to replace World of Warcraft's built-in ability recommendations, which the author feels should have been useful but fall short in practice. The developer hopes to help any player use a smarter one-button macro-based damage rotation with minimal friction. The author considers the tool particularly suitable for raids: its **Hold Burst** feature lets you save burst cooldowns for a particular phase or target. The current release supports **Retail 12.1.5 · Shadow Priest · a pure single-target rotation focused on Voidweaver**. Other specializations are not yet implemented; Demonology Warlock and others are planned as the project matures.
+
+The current version displays ability and keybind suggestions; players cast the abilities themselves.
+
+**[Download desktop app](https://github.com/muttsf/RyoGeese/releases) · [Install companion addon](https://github.com/muttsf/RyoGeese-Dash#english) · [Report an issue](https://github.com/muttsf/RyoGeese/issues)**
+
+Current release: **0.1.0-beta.4 test version**.
+
+If you like this project, please consider giving it a **Star**. Issues and pull requests are welcome.
+
+### Rotation sources and testing priorities
+
+The built-in rotation is based on [SimulationCraft (SIMC)](https://github.com/simulationcraft/simc)'s Shadow Priest single-target priorities and mechanic data, adapted into a local implementation for the information available through Dash and the project's visual recognition. It contains simplifications and approximations; it does not run the full SIMC simulator or promise identical results in every situation. The current reference data is pinned to [SIMC commit `3dcabb9`](https://github.com/simulationcraft/simc/tree/3dcabb94dd32f786786c67541dfd10db9f39e43b).
+
+Your SIMC export is used to check your specialization, talents, equipment, and set bonuses, and to configure the supported built-in rules. It is not a separate imported rotation. The software is not tied to the author's character, exact equipment, or keybinds. Maintainers update and validate the rotation, then distribute it with new software releases.
+
+The current implementation supports Voidweaver's core abilities and several common talent variations. Other hero trees and some unimplemented branches remain unsupported; the import check determines whether a profile can be used. **Support for a profile does not mean every talent interaction has been fully validated.**
+
+This is an early test release. Please focus feedback on whether the rotation is useful in practice:
+
+- Does importing your actual SIMC export select the expected configuration?
+- Are there unreasonable ability priorities, DoT maintenance decisions, or Insanity handling?
+- Does Hold Burst behave as expected when saving cooldowns for a raid phase or target?
+
+When reporting a problem, include your talent setup, the approximate time, and the relevant recommendation log. Remove any personal information you do not want to share.
+
+### Download and installation
+
+First-time users need to install both the **desktop app** and the **game addon** separately.
+
+1. Open the [download page](https://github.com/muttsf/RyoGeese/releases). Under **Assets**, download the installer whose name ends in **`x64-Setup.exe`**, run it, and finish installation. Players do not need the source ZIP.
+2. Follow the [Dash installation guide](https://github.com/muttsf/RyoGeese-Dash#english) to put the addon in your game's `Interface/AddOns` directory.
+3. Launch the game, enable Dash, and keep its entire panel visible. Open RyoGeese, or double-click **`点我启动.exe`** in the application's installation folder.
+
+The app installer does not contain the addon; they are updated separately. The current test release is **not digitally signed**. Download it from this project's release page, which also provides the corresponding source and `SHA256SUMS.txt`.
+
+### First-time setup
+
+Follow the four cards from top to bottom. Completing a step unlocks the next one. The button names below match the current Chinese interface.
+
+| Step | Action |
+| --- | --- |
+| **1 · Import SIMC** | In the game, use the SimulationCraft addon and enter `/simc`. Copy your current character's full export. In RyoGeese, click “导入SIMC”, paste it, and confirm. The app checks your specialization, talents, and equipment and loads a supported rotation. |
+| **2 · Locate Dash** | Keep the game and entire Dash panel visible, click “定位插件”, and wait for completion. |
+| **3 · Set ability keys** | Click “设置技能按键” and enter the keys you actually use, such as `1`, `E`, or `Shift+1`. You may fill in some keys or leave them all blank; opening the settings is enough to continue. |
+| **4 · Start** | Check “确认配置，准备开始”, then click “开始推荐”. Allow time for the initial load; the recommendation window appears when ready. |
+
+Exporting SIMC requires the separate [SimulationCraft game addon](https://github.com/simulationcraft/simc-addon). RyoGeese saves your previous export and keybinds; use “载入上次” to load them again. Import a fresh export after changing your talents or equipment.
+
+### Recommendation window
+
+- **Ability and keybind**: Shows the most recently received recommendation. A blank keybind is displayed as “鼠标点击” (“Mouse click”).
+- **Hold Burst / Resume Burst**: Use “暂缓爆发” or “恢复爆发” to change burst recommendations. The current state appears in the upper right.
+- **Minimal mode**: Click “极简” to show mainly the keybind. Double-click the small window or press `Esc` to return to the standard view.
+- **Relocate**: After moving Dash or changing its size or font size, click “重新定位”.
+- **Exit**: Click “退出” to close the recommendation window and end the current recommendation session.
+
+**Current behavior:** A capture is scheduled every **500 milliseconds**, recognition runs serially, and the current ability suggestion is displayed. A future version may reduce the capture interval to around **300 milliseconds** to reduce idle waiting after players use cast-time abilities. This is a future optimization plan. Actual capture intervals and processing time depend on system load. The current release shows only the first recommendation, without next-ability prediction.
+
+### Optional ability icons
+
+The first release does not bundle game ability images or internet audio clips. Without an icon pack, ability names and keybinds still work, while the icon area stays blank.
+
+If you have a compatible icon pack, click **“导入图标包”** on the main page and select the ZIP. **No extraction or individual icon setup is required.** Import the new pack again when updating it.
+
+A pack may contain icons for multiple specializations; that does not mean their rotations are supported. See [ICON_IMPORT.txt](ICON_IMPORT.txt) for the pack format in Chinese.
+
+### Hardware and game requirements
+
+| Item | Current scope |
+| --- | --- |
+| Game | **Retail 12.1.5**, level 90, with supported Shadow Priest talents. Compatibility is checked during import. |
+| Tested system and GPU | **Windows 11 + NVIDIA RTX 5080**. |
+| Other NVIDIA GPUs | **RTX 30 series and newer are theoretical compatibility targets**, without testing on every model. |
+| AMD | AMD CPUs can be used. **AMD GPUs are not currently supported.** |
+| Memory and runtime environment | **There is no real-machine compatibility guarantee for 8GB RAM configurations.** The GPU driver and Microsoft Visual C++ x64 runtime must meet the application's requirements. |
+
+**Author's note:** “I will try to add AMD GPU support, but I cannot guarantee it yet and do not have an AMD card for testing. This is my first software project, and I used mature CUDA libraries and tools. I will look for ways to support AMD in the future, and I hereby promise that the Sapphire 7900 XTX is the most beautiful graphics card in the world.”
+
+### Frequently asked questions
+
+**Why does a fresh installation still show my previous SIMC export?**<br>
+Character data and keybinds are stored in your local user directory and intentionally retained during uninstallation. The public installer does not contain the author's private SIMC export, keybinds, or logs.
+
+**What if locating Dash fails, or I move the panel?**<br>
+Keep the game window and the entire Dash panel visible, then use “定位插件” or “重新定位”. Locate it again after changing its position, size, or font size. See [runtime boundaries](app/运行边界说明.txt) for details in Chinese.
+
+**How are rotations updated? Do I need to import one myself?**<br>
+Maintainers review game patches and SimulationCraft changes, validate updates, and release them with the software. Download the new app version to receive them. You do not import rotation files, and the current release does not update rotations automatically online.
+
+**How do I report a problem?**<br>
+Click “打开日志” on the main page and find the corresponding error or recommendation log. Open an [issue](https://github.com/muttsf/RyoGeese/issues) describing what happened, your app version, GPU model, and the time. Check logs for information you do not want to make public before uploading them.
+
+Logs are rotated, and old closed log files are cleaned up with a target of approximately **200MiB**. A cleanup failure will not block recommendations to enforce that target.
+
+<details>
+<summary>Local data locations</summary>
+
+- SIMC and keybinds: `%LOCALAPPDATA%\AiHekili\startup\current.json` (the legacy path is retained for compatibility).
+- Error and recommendation logs: `%LOCALAPPDATA%\RyoGeese\logs`.
+- Imported icons: `%LOCALAPPDATA%\RyoGeese\icons`.
+
+Exit both the main and recommendation windows before updating or uninstalling. The game stores addon settings separately.
+
+</details>
+
+### Development and licensing
+
+Issues and pull requests are welcome. Keep changes focused and explain the reason and validation. Changes affecting recommendations, recognition, or installation need appropriate checks.
+
+- [Build instructions](BUILDING_PORTABLE.txt): Prepare runtime dependencies, assemble the app, and build the installer. You currently need to supply dependencies matching the manifest; there is no one-click build with automatic dependency downloads.
+- [Maintenance workflow](MAINTENANCE.txt): Review game patches and SIMC, validate changes, and release rotations.
+- `app/`: Desktop UI, built-in rotation, visual recognition supervision, and reference data.
+- `native/`: Independent GPU reader source. External runtime dependency hashes are listed in `DEPENDENCIES.json`.
+
+Project-owned source is licensed under **GPL-3.0-only**. The project-owned GPU reader has an additional permission for NVIDIA and Microsoft runtimes. Third-party components retain their own licenses; see [LICENSE](LICENSE), [licensing scope](LICENSING.md), and [third-party notices](app/notices/).
